@@ -1,0 +1,163 @@
+#leo-footer{
+	background: url("images/bg-footer.png") repeat scroll 0 0 transparent;
+	padding-bottom: 12px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.footer-wrapper {
+	height: 93px;
+	background: url("images/bg-footer-po1.png") repeat scroll 0 0 transparent;
+	border-bottom: 1px solid #242426;
+}
+#lofadvafooterfooter ul.lof-items li {
+	padding:0px;
+	line-height: 24px;
+	list-style: none;
+}
+#lofadvafooterfooter #lofadva-pos-1 {
+	background: url("images/bg-footer-po1.png") repeat scroll 0 0 transparent;
+    padding: 17px 0;
+	margin-top: -93px;
+}
+#lofadvafooterfooter #lofadva-pos-1 li {
+	list-style:none;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text {
+	
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2 {
+	float: left;
+	font-size: 20px;
+	height: 39px;
+	line-height: 39px;
+	color: #747474;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2.shipping {
+	background: url("images/icon-shipping.png") no-repeat scroll left center transparent;
+	margin-right: 57px;
+	padding-left: 59px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2.call {
+	background: url("images/icon-call.png") no-repeat scroll left center transparent;
+	padding-left: 57px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 span {
+	font-size: 20px;
+	line-height: 58px;
+	margin-left: 5px;
+	color: #1ba1e2;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul{
+	float: right;
+    margin: 5px 0 0;
+    padding: 0;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li{
+	float: left;
+	list-style: none outside none;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li{
+	background-image: url("images/icon-footer.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+    display: inline-block;
+    height: 49px;
+    line-height: 49px;
+	width: 49px;
+	text-decoration:none;
+	text-indent: -9999px;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	transition: 0.6s;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.twitter {
+	background-position: 0 0;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.rss{
+	background-position: -45px 0;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.facebook{
+	background-position: -93px 0;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.skype{
+	background-position: -142px 0;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.twitter:hover {
+	background-position: 0 -46px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.rss:hover{
+	background-position: -45px -46px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.facebook:hover{
+	background-position: -93px -46px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.skype:hover{
+	background-position: -142px -46px;
+}
+#lofadvafooterfooter #lofadva-pos-1  h2{
+	float: left;
+    margin: 0;
+    padding: 10px 10px 6px 0px;
+    text-transform: none; 
+	font-weight: normal;
+	background:none;
+	color:#595959;
+}
+#lofadvafooterfooter #lofadva-pos-2 .lofadva-block-1  h2{
+	
+}
+
+#lofadvafooterfooter #lofadva-pos-2{
+    clear: both;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 6px 0;
+}
+#lofadvafooterfooter #lofadva-pos-2 li {
+	list-style:none;
+}
+#lofadvafooterfooter #lofadva-pos-2 h2{
+	color: #757575;
+    margin-bottom: 8px;
+	padding: 0;
+    text-transform: none;
+	font-size: 20px;
+	font-weight: normal;
+	background:none;
+}
+#lofadvafooterfooter #lofadva-pos-2 li.link a{
+    color: #505050;
+	text-decoration:none;
+}
+#lofadvafooterfooter #lofadva-pos-2 li.link a:hover{
+    color: #1ba1e2;
+    text-decoration: none;
+}
+#lofadvafooterfooter #lofadva-pos-2 li .custom-content{
+	padding:0 5px 0 15px;
+}
+#lofadvafooterfooter #lofadva-pos-2 li.link{
+	
+}
+#lofadvafooterfooter #lofadva-pos-3 {
+	background: #101010;
+	border-bottom: 1px solid #333434;
+	border-radius: 5px 5px 5px 5px;
+}
+#lofadvafooterfooter #lofadva-pos-3 .lofadva-block-1 ul li{
+	margin: 8px 0 0 12px;
+}
+#lofadvafooterfooter #lofadva-pos-3 ul li.lof-text {
+	float: left;
+	color: #636262;
+}
+#lofadvafooterfooter #lofadva-pos-3 ul li.link{
+	display: inline-block;
+	margin-left: 5px;
+}
+#lofadvafooterfooter #lofadva-pos-3 ul li.link a {
+	color: #1BA1E2;
+}
+#footer p{
+    color: #595959;
+}

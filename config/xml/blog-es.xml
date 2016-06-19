@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ES - Blog Ecommerce de PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/es</link>
+	<description></description>
+	<lastBuildDate>Mon, 29 Feb 2016 09:16:15 +0000</lastBuildDate>
+	<language>es-ES</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Destaca tu Prestashop en Marketplaces: Shopping, Amazón y eBay</title>
+		<link>https://www.prestashop.com/blog/es/destaca-tu-prestashop-en-marketplaces/</link>
+		<comments>https://www.prestashop.com/blog/es/destaca-tu-prestashop-en-marketplaces/#comments</comments>
+		<pubDate>Thu, 25 Feb 2016 14:50:26 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+		<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14037</guid>
+		<description><![CDATA[<p>Imagino que ante la cantidad de visitas que tienen los grandes Marketplaces como eBay, Amazon o Google Shopping habrás pensado en más de una ocasión dar de alta tu tienda en algunos de ellos para empezar a vender desde allí ¿verdad? Pues para facilitarte esta labor hemos preparado primero una comparativa de los tres principales [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/destaca-tu-prestashop-en-marketplaces/">Destaca tu Prestashop en Marketplaces: Shopping, Amazón y eBay</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Imagino que ante la cantidad de visitas que tienen los grandes Marketplaces como eBay, Amazon o Google Shopping habrás pensado en más de una ocasión dar de alta tu tienda en algunos de ellos para empezar a vender desde allí ¿verdad?<span id="more-14037"></span></p>
+<p>Pues para facilitarte esta labor hemos preparado primero una comparativa de los tres principales en España y después un manual completo sobre como instalar y configurar el módulo oficial de eBay con PrestaShop.</p>
+<h2>Tabla Comparativa de Marketplaces</h2>
+<table width="626" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center" valign="top" width="79">Sitio</td>
+<td style="text-align: center" valign="top" width="209">Precios</td>
+<td style="text-align: center" valign="top" width="176">Tipo de venta</td>
+<td style="text-align: center" valign="top" width="162">Módulo</td>
+</tr>
+<tr>
+<td style="text-align: center" valign="top" width="79">eBay</td>
+<td style="text-align: center" valign="top" width="209">Puedes verlos todos <a href="http://pages.ebay.es/help/sell/businessfees.html">aquí</a> como resumen te dejo esto para negocios:</p>
+<ol>
+<li style="text-align: left">17€ /mes</li>
+<li style="text-align: left">200 anuncios gratis, luego 0.13 por anuncio.</li>
+<li style="text-align: left">Comisión 4,3 al 7%</li>
+</ol>
+</td>
+<td style="text-align: center" valign="top" width="176">La venta se hace dentro de eBay y funciona en base a reputación como comerciante.</td>
+<td style="text-align: center" valign="top" width="162">Lo puedes descargar gratis con este <a href="http://addons.prestashop.com/es/marketplaces/2742-ebay.html">enlace</a>. También podrías añadir los anuncios a mano.</td>
+</tr>
+<tr>
+<td style="text-align: center" valign="top" width="79">Amazon</td>
+<td valign="top" width="209">
+<ol>
+<li style="text-align: center">39€ al mes sin comisiones.</li>
+<li style="text-align: center">O puede ser sin cuota, pero con comisión de 0,99 si no haces más de 40 ventas.</li>
+</ol>
+</td>
+<td style="text-align: center" valign="top" width="176">La venta se hace dentro de Amazon, pero no funciona por reputación es más bien por “posicionamiento” en las categorías como te encontrarán.</td>
+<td style="text-align: center" valign="top" width="162">El módulo lo puedes descargar <a href="http://addons.prestashop.com/es/marketplaces/2501-amazon-market-place.html">aquí</a> pero en esta ocasión no es gratuito y cuesta 200€. Siempre podrás montar la tienda a mano si lo prefieres.</td>
+</tr>
+<tr>
+<td style="text-align: center" valign="top" width="79">Shopping</td>
+<td style="text-align: center" valign="top" width="209">
+<ol>
+<li>Pagas por cada clic en tu anuncio independientemente de si vendes o no.</li>
+<li>Tiene la ventaja de que sólo te harán clics los verdaderamente interesados en tu producto</li>
+</ol>
+</td>
+<td style="text-align: center" valign="top" width="176">Es la principal ventaja, la venta acaba en tu tienda con lo que puedes sacar más partido de cada visita, exactamente igual que si fuera una visita PPC o SEO. Ya sabes suscripciones, venta cruzada, remarketing&#8230;</td>
+<td style="text-align: center" valign="top" width="162">Lo puedes hacer con módulo gratuitos o incluso con una hoja de cálculo en Gdrive. Pero te recomiendo usar este <a href="http://addons.prestashop.com/es/comparadores-precios/1615-google-shopping-merchant-center.html">módulo</a> por 157€</td>
+</tr>
+</tbody>
+</table>
+<h2>Instalar módulo eBay en tienda PrestaShop</h2>
+<p>Según la tabla anterior el único módulo gratuito que podemos usar de forma sencilla para Marketplace es el de eBay así qué os vamos a explicar cómo instalarlo.</p>
+<p>Simplemente busca o descarga y sube a tu PrestaShop el “<a href="http://addons.prestashop.com/es/marketplaces/2742-ebay.html">Módulo Oficial eBay Marketplace</a>” e instálalo.</p>
+<p>Una vez lo tengas instalado para empezar a vender en eBay tendrás que:</p>
+<ol>
+<li><a href="https://scgi.ebay.es/ws/eBayISAPI.dll?RegisterEnterInfo&amp;bizflow=2&amp;_trksid=p2064334.m2236">Crea una cuenta empresa de eBay</a>. Siguiendo el anterior link irás a la página de registro para vendedores y solo tienes qué introducir tus datos de empresa y verificar por teléfono o por con tarjeta bancaria.</li>
+<li>Una vez tienes hecho lo anterior solamente tendrás que logarte eBay y ya podrías ir subiendo anuncios manualmente, pero para usar el módulo tendrás que hacer el siguiente punto.</li>
+</ol>
+<h2>Vincula tu cuenta de eBay con el complemento de eBay</h2>
+<p>Es bastante sencillo, en la administración de módulo ve a configurar el módulo recién instalado de eBay y llegarás a esta pantalla:</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/02/Marketplace1.jpg"><img class="alignleft size-full wp-image-14053" alt="Marketplace1" src="https://www.prestashop.com/blog/es/files/2016/02/Marketplace1.jpg" width="1086" height="396" /></a></p>
+<p>Lo dejas todo como ves en la captura (si lo quieres hacer para España) y tan solo debes añadir el Seudónimo con el que te diste de alta., ahora presionas sobre “vincular”. Iras a una pantalla para otorgar los permisos oportunos a tu tienda PrestaShop.</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/02/Marketplace2.jpg"><img class="alignleft size-full wp-image-14054" alt="Marketplace2" src="https://www.prestashop.com/blog/es/files/2016/02/Marketplace2.jpg" width="1361" height="316" /></a></p>
+<h2>Configuración del módulo eBay</h2>
+<ol>
+<li>Configuración de la cuenta:
+<ol>
+<li>Detalles de la cuenta, no te quedará más remedio que usar una cuenta de Paypal y después debes indicar el código postal de la tienda el país y si deseas que el pago sea inmediato.</li>
+<li>Política de devoluciones, aquí debes especificar la política de devoluciones qué desees usar con las compras qué te hagan en eBay, no hace falta que te diga que de esto dependerá en gran medida las ventas que hagas, pero claro una política de devoluciones muy atractiva puede convertirse en una ruina si te devuelven muchos productos, así que sé prudente…</li>
+<li>Sincronización de pedidos, este punto viene bastante bien configurado por defecto e indica que los pedidos de eBay se sincronizan en el back de tu tienda de forma automática.</li>
+</ol>
+</li>
+<li>Configuración de las categorías.
+<ol>
+<li>Si has usado Google Shopping esta parte te resultará familiar, lo que tienes hacer es asociar las categorías de tu PrestaShop con las categorías disponibles en eBay.</li>
+<li>En este apartado también puedes modificar el precio de venta que tendrás en eBay si deseas tener un precio distinto al que muestras en tu tienda por ejemplo para hacer frente a comisiones u otros asuntos.</li>
+<li>También puedes eliminar productos de su publicación en la columna de la izquierda.</li>
+<li>Imágenes, por cada producto puedes asociar una imagen principal y después también aparecerán el resto de imágenes en miniatura.</li>
+</ol>
+</li>
+<li><span style="line-height: 1.5">Categorías de la tienda dentro de eBay</span>
+<ol>
+<li>En tu tienda dentro de eBay puedes crear categorías y subcategorías para asociar con las originales de PrestaShop.</li>
+<li>Te recomiendo que no optimices mucho para SEO estas categorías ya eBay podría acabar robando tráfico SEO a tu tienda.</li>
+</ol>
+</li>
+<li>Envío
+<ol>
+<li>Al igual que la política de devoluciones puedes usar distintos métodos de envío para las ventas de eBay.</li>
+<li>También podrás configurar un coste de envío internacional.</li>
+</ol>
+</li>
+<li>Plantilla
+<ol>
+<li>Puedes personalizar la plantilla de producto que verá el visitante de eBay usando un sistema de shortcodes basado en los atributos de la tienda.</li>
+<li>Te recomiendo usar siempre la descripción corta para no duplicar los artículos de tu tienda.</li>
+<li>Puedes añadir un enlace a la tienda dentro de esta plantilla.</li>
+</ol>
+</li>
+</ol>
+<h2>Sincronización de productos con eBay</h2>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/02/Marketplace3.jpg"><img class="alignleft size-full wp-image-14055" alt="Marketplace3" src="https://www.prestashop.com/blog/es/files/2016/02/Marketplace3.jpg" width="1100" height="482" /></a></p>
+<p>También dispones de un completo manual de usuario en PDF <a href="http://202-ecommerce.com/d/eBay-doc_es.pdf">aquí</a></p>
+<p>¡Cuando tengas todos los puntos terminados solo tendrás que hacer la sincronización de productos, esperar que se aprueben y empezar a vender!</p>
+<p>&nbsp;</p>
+<p>Sobre el autor:</p>
+<p><img class=" wp-image-13624  alignleft" style="margin-top: -2px;margin-bottom: -2px" alt="Prestashop Partner" src="https://www.prestashop.com/blog/es/files/2016/02/Juan-Luis.jpg" width="80" height="80" /></p>
+<p><strong>Juan Luis Mora</strong> &#8211; Consultor Freelance especializado en <a href="http://juanluismora.es/ecommerce/seo-prestashop.html" target="_blank">SEO y SEM para Prestashop</a>. Gran parte de lo que voy aprendiendo lo publico en mi blog y me perfil de Twitter <a href="http://twitter.com/juanluismora_es" target="_blank">@juanluismora_es</a></p>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/destaca-tu-prestashop-en-marketplaces/">Destaca tu Prestashop en Marketplaces: Shopping, Amazón y eBay</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/destaca-tu-prestashop-en-marketplaces/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CanariasMakeUp &#8211; Maquillaje en Canarias!</title>
+		<link>https://www.prestashop.com/blog/es/caso-de-exito-canariasmakeup-maquillaje-en-canarias/</link>
+		<comments>https://www.prestashop.com/blog/es/caso-de-exito-canariasmakeup-maquillaje-en-canarias/#comments</comments>
+		<pubDate>Wed, 24 Feb 2016 15:00:42 +0000</pubDate>
+		<dc:creator><![CDATA[Jhon Suarez Pardo]]></dc:creator>
+				<category><![CDATA[Caso de éxito]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13778</guid>
+		<description><![CDATA[<p>Hoy estamos con Janet Plasencia, Directora de Canariasmakeup, tienda online especializada en productos de maquillaje con atención exclusiva al archipiélago canario. Janet, cuéntanos un poco sobre Canariasmakeup. Nacida de la idea de una joven pareja tinerfeña con la intención de atender el mundo de la cosmética de forma accesible y competitiva, totalmente adaptada a las [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-canariasmakeup-maquillaje-en-canarias/">CanariasMakeUp &#8211; Maquillaje en Canarias!</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Hoy estamos con Janet Plasencia, Directora de Canariasmakeup, tienda online especializada en productos de maquillaje con atención exclusiva al archipiélago canario.<span id="more-13778"></span></p>
+<h2><span style="color: #59bbc4">Janet, cuéntanos un poco sobre Canariasmakeup.</span></h2>
+<p>Nacida de la idea de una joven pareja tinerfeña con la intención de atender el mundo de la cosmética de forma accesible y competitiva, totalmente adaptada a las particularidades del comercio en las islas, con sede en la isla de Tenerife y enfocada a atender en exclusiva la demanda del archipiélago Canario, <strong><a href="http://www.Canariasmakeup.com" target="_blank"><span style="color: #800000">Canariasmakeup.com</span></a> </strong>se inauguraba el 14 de Diciembre de 2012 y tras experimentar un fuerte crecimiento en sus tres primeros años de vida, continua a fecha de hoy en esta dinámica, posicionándose así como la tienda 100% online con el mayor catálogo de marcas de cosmética y maquillaje destinado a cubrir en exclusiva la demanda del mercado canario.</p>
+<p>Nuestro catálogo cuenta con más de 6.000 referencias de más de 40 marcas diferentes y tenemos previsto incorporar dos nuevas marcas antes de que finalice el primer trimestre de 2016. Tenemos previsto aumentar el número total en al menos 5 marcas más a lo largo de 2016 lo que supone una marca nueva cada menos de tres meses de media.</p>
+<p>En nuestras instalaciones recibimos cada dos semanas aproximadamente reposiciones de una media de 1.600 productos que vienen a cubrir la demanda de las más de 69.000 visitas que recibimos de media cada mes.</p>
+<h2><span style="color: #59bbc4">¿Cómo y por qué elegiste PrestaShop?</span></h2>
+<p>El equipo de desarrollo al que solicitamos los servicios iniciales para la creación de la tienda nos presentó varias opciones sobre las que poder establecer nuestra idea de negocio. De entre las diferentes alternativas disponibles, la versatilidad, las múltiples opciones de ampliación y de personalización, hizo que sin duda nos decantásemos por Prestashop. Nos gusta que detrás de esta plataforma hay constantemente un equipo de desarrollo y soporte muy dinámico. No solamente están ahí para resolver cualquier duda o contratiempo, sino que además están en constante desarrollo de nuevos módulos o mejora de los ya existentes, lo cual<strong> sin duda es una gran ventaja para un modelo de negocio tan dinámico como el nuestro, donde constantemente estamos lanzando nuevas marcas, promociones y servicios.</strong> Todo esto necesita de módulos que sean capaces de llevar a la práctica nuestra idea y siempre lo encontramos entre el amplio catálogo disponible en la tienda de Prestashop y en ocasiones incluso ya es una función innata de la versión más actual de Prestashop por lo que ni si quiera es necesario añadir nuevos módulos.</p>
+<h2><span style="color: #59bbc4">¿Hay diferencia del comportamiento de un comprador de canarias y la península ibérica?</span></h2>
+<p>No. Realmente las diferencias no están en el comprador sino en las condiciones de compra que este soporta. El régimen fiscal de Canarias es diferente al del resto de países de la UE incluido España península. Centrándonos en el comercio dentro de nuestro país, una compra realizada a península por un cliente residente en Canarias ha de gozar siempre del descuento del IVA ya que su compra ha de abonar el IGIC (Impuesto General Indirecto Canario) a su entrada en Canarias. Lo que a la mayoría de consumidores residentes en Canarias hace pensárselo dos veces antes de comprar un producto fuera de las islas son los gastos de envío más caros, dado la mayor distancia y la necesidad de combinar el transporte por carretera con el aéreo y/o el marítimo según corresponda en cada caso, así como los gastos de gestión aduanera realizados por la empresa de mensajería y cuya tarifa de servicio puede variar mucho de una a otra, haciendo que en ocasiones la suma total del importe del IGIC mas el servicio de gestión Aduanera para el despacho del bulto suponga un coste añadido de una tercera parte del valor de la mercancía. En la mayoría de los casos, <strong>el cliente final es informado con exactitud de este sobre coste cuando el mensajero pasa a hacer la entrega o bien cuando se desplaza a su oficina de Correos más cercana a efectuar la recogida&#8230; </strong>y en cualquier caso es siempre una desagradable sorpresa con la que no contabas.</p>
+<p>Además, en tiempos recientes, el aumento de las medidas de control en este sentido, ha provocado que las inspecciones aduaneras sean cada vez más frecuentes, con el consiguiente retraso en la entrega de la compra por este motivo.</p>
+<h2><span style="color: #59bbc4">¿Cómo es gestionada la logística estando ubicado en una isla? ¿Es un freno importante al momento de lanzarse?</span></h2>
+<p>Sin lugar a dudas, siendo nuestro modelo de negocio 100% online y con un tipo de producto de muy alta rotación a lo largo del año, un buen soporte logístico es algo crucial.</p>
+<p>A nivel interno es <strong>esencial contar con una gestión de almacén eficaz</strong>. En este sentido, nuestro equipo de almacén trabaja codo con codo con nuestro departamento de compras para saber siempre por adelantado cuales son los productos de los que recibiremos reposición, cuales son las nuevas marcas que vienen en el pedido y/o cuales son las novedades que se recibirán de las marcas que ya están en el catálogo. Nuestro equipo de almacén realiza las operaciones necesarias para que, en el día de la entrega, la mercancía recibida quede completamente recibida y actualizada en la web en cuestión de horas. Nada se deja al azar ni se espera al último momento, antes de llegar, nuestros compañeros de almacén ya conocen los productos y éstos ya tienen su sitio en nuestro almacén.</p>
+<p><strong>Con respecto a la logística para abastecimiento de nuestro almacén resulta de gran ayuda el haber concentrado m<strong>á</strong>s del 95% de nuestras compras a un único distribuidor basado en península.</strong> Esto simplifica y agiliza enormemente el proceso reposición y envío de material hacia nuestras instalaciones. Ahorramos tiempo en infinitas cadenas de email y/o llamadas de teléfono con varios proveedores. Igualmente, los casos de desperfectos y/o mermas en la mercancía son gestionados de forma mucho más eficaz al estar todo concentrado en un único proveedor, al cual acudimos siempre a través de una misma persona de contacto dedicada. En la misma línea, <strong>trabajamos desde el principio con un único agente de carga con gran experiencia en la gestión de la documentación aduanera que requieren todas las mercancías que entran en Canarias</strong>, por lo que en más de tres años de actividad no hemos experimentado ni un solo caso de retraso porque Aduanas haya retenido algún bulto a su llegada a puerto por irregularidades con la documentación y/o el despacho del bulto que nuestro agente de carga haya despachado desde península.</p>
+<p>La gestión de la logística para con nuestros clientes en las islas se realiza igualmente a través de una única empresa de mensajería privada. Al igual que con la logística para abastecer nuestro almacén, <strong>el trabajar con una única empresa de mensajería lo simplifica todo lo cual resulta buen ventajoso y repercute en beneficio de nuestros clientes, especialmente cuando tenemos que tratar alguna consulta por parte de estos relativa al estado de su envío.</strong></p>
+<h2><span style="color: #59bbc4">La venta de tus productos está en un mercado muy competitivo, ¿Cómo Canariasmakeup se diferencia de los competidores?</span></h2>
+<p>Nos mantenemos al día sobre nuevas marcas, novedades de las marcas ya existentes, acudimos a eventos internacionales para estar al día de que será lo siguiente, en resumen, estamos siempre al pie del cañón en lo que al mundo del maquillaje se refiere para tratar de acercar a Canarias todas las novedades y marcas de interés que nuestros clientes requieren.</p>
+<p>Al margen de esto, Canariasmakeup vienen a <strong>solventar de forma razonable una cuestión incómoda como son los tiempos de espera, los gastos de envío y el sobre-coste de Aduanas cuando se hacen compras on-line fuera del archipiélago.</strong></p>
+<p>Nuestros acuerdos y compromisos con los proveedores y fabricantes nos han hecho obtener marcas que hasta la fecha eran impensables en Canarias y muchas de las cuales a fecha de hoy siguen sin estar disponible en ninguna otra tienda tanto on-line como física dentro de Canarias.</p>
+<p>Si lugar a dudas, para la gente de Canarias, comprar en Canariasmakeup es una solución cercana, asequible y con la ventaja de un equipo de Atención al Cliente dedicado en exclusiva a la gente que vive aquí y que atiende sus consultas con la máxima atención y de forma personalizada.</p>
+<p>Visita la web: <span style="color: #800000"><strong><a href="http://www.canariasmakeup.com/" target="_blank"><span style="color: #800000">www.canariasmakeup.com</span></a></strong></span></p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-canariasmakeup-maquillaje-en-canarias/">CanariasMakeUp &#8211; Maquillaje en Canarias!</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/caso-de-exito-canariasmakeup-maquillaje-en-canarias/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>El contenido para un blog de eCommerce: ¿Seducir o argumentar?</title>
+		<link>https://www.prestashop.com/blog/es/el-contenido-para-un-blog-de-ecommerce-seducir-o-argumentar/</link>
+		<comments>https://www.prestashop.com/blog/es/el-contenido-para-un-blog-de-ecommerce-seducir-o-argumentar/#comments</comments>
+		<pubDate>Wed, 24 Feb 2016 14:42:43 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+		<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14015</guid>
+		<description><![CDATA[<p>Resulta que poner en marcha el blog de un eCommerce significa pensar en una estrategia de marketing de contenido para definir claramente cuál va a ser nuestra propuesta de valor para el usuario. Y esto debe conducir a reflexionar sobre qué tipo de blog y cuál va a ser su enfoque. ¿Debería ser un blog [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/el-contenido-para-un-blog-de-ecommerce-seducir-o-argumentar/">El contenido para un blog de eCommerce: ¿Seducir o argumentar?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Resulta que poner en marcha el <b>blog de un eCommerce</b> significa pensar en una estrategia de marketing de contenido para definir claramente <b>cuál va a ser nuestra propuesta de valor para el usuario</b>.<span id="more-14015"></span></p>
+<p>Y esto debe conducir a reflexionar sobre <b>qué tipo de blog y cuál va a ser su enfoque.</b> ¿Debería ser un blog de producto? ¿Quizás un blog corporativo? ¿Tal vez un blog de experiencia de uso? ¿Una plataforma de soporte al cliente?</p>
+<p>Si el objetivo del blog es impulsar las ventas del ecommerce de una forma atractiva pero no invasiva, la tendencia es crear contenido de experiencia con un tono inspiracional. Sin embargo el contenido de producto, más racional y descriptivo cumple una función muy importante solucionando dudas de los usuarios&#8230;</p>
+<h2><b>¿Contenido inspiracional o contenido descriptivo?</b></h2>
+<p>Cada uno de estos tipos de contenido es percibido de forma totalmente diferente. Mientras <b>el contenido inspiracional se enfoca en disparar las emociones,</b> <b>el contenido descriptivo es más racional y busca dar argumentos convincentes.</b></p>
+<p>Las temáticas generales del <b>contenido inspiracional</b> son muy amplias y se enfocan habitualmente en poner el producto en una situación de uso para mostrar los beneficios emocionales de tenerlo. El objetivo es que se produzca una <b>asociación entre el contenido y la oferta de la tienda online sin promocionar el producto directamente.</b> El sector online de la moda, los accesorios o el lujo son excelentes ejemplos de contenido inspiracional. El contenido no es para vender ropa, sino para transmitir un estilo que contagie la imaginación y, en consecuencia, lleve al usuario a interesarse por los productos.</p>
+<p>Los formatos de este tipo de contenido son muy diversos, como las <b>entrevistas, los reportajes, ‘fashion roundups’ o informes de tendencias</b>, solo por mencionar algunas variantes de artículos. No debe olvidarse que <b>la fotografía aporta mucho valor en el contenido inspiracional</b> y que incluso da lugar a formatos de contenido específicos como las <b>fotogalería</b>s o los <b>‘looks books’</b>.</p>
+<p><b>El contenido descriptivo gira alrededor del producto</b>, de sus características, siempre con un enfoque hacia los beneficios. Las temáticas de contenido de producto son menos amplias que las de contenido inspiracional pero <b>ofrecen un sinfín posibilidades</b>, empezando por los <b>artículos, pruebas de producto u opiniones de expertos. </b>También una amplia variedad de formatos descargables que pueden incorporarse al blog, como <b>guías, manuales, hojas técnicas, tutoriales, </b>etc.</p>
+<p>Este tipo de contenido buscar <b>confirmar en el usuario que el producto es el que mejor se ajusta a sus expectativas racionales de compra.</b></p>
+<p>Por ejemplo, el comercio electrónico de productos técnicos o funcionales (informática, fotografía, electrodomésticos, etc.) tiene un proceso de toma de decisión racional, por lo tanto requiere de un tipo de contenido mucho más orientado a producto.</p>
+<h2><b>¿Seducir o argumentar?</b></h2>
+<p>Parece evidente <b>que la oferta de productos de un ecommerce condiciona el enfoque y el propósito del blog, pero la cuestión no es tan sencilla.</b> Si una tienda online ofrece productos de compra muy meditada, o por el contrario de compra por impulso, la decisión podría ser sencilla. Pero salvo casos muy marcados, o inclusive en lo que parece muy claro, <b>la decisión de compra nunca es puramente racional o puramente emocional.</b></p>
+<p>Por lo tanto, un blog en ecommerce debe tener un <b>equilibrio medido entre ambos tipos de contenido, </b>basándose en el conocimiento de sus potenciales clientes. <b>Seducir con argumentos y argumentar con imaginación.</b></p>
+<p>En definitiva, el objetivo de un blog de ecommerce, sea con el contenido que sea, es potenciar el negocio online.</p>
+<p>Sobre el autor:</p>
+<p style="text-align: justify"><img class="alignleft size-full wp-image-13425" alt="Mixtrophy_Marcelo" src="https://www.prestashop.com/blog/es/files/2015/11/Mixtrophy_Marcelo.png" width="80" height="80" />Marcelo Arnone. Cofounder &amp; CEO de Mixtropy (<a title="mixtropy" href="http://mixtropy.com/" target="_blank">http://mixtropy.com/</a>), agencia de marketing de contenido. Argentino de nacimiento, español de adopción y &#8220;marketinero de contenido&#8221; por pasión, con más 20 años de trayectoria vinculada al marketing, internet y la tecnología.</p>
+<p>&#8220;En Mixtropy creamos contenidos únicos para impulsar tu negocio. <a href="http://www.mixtropy.com/mixtropy-landing-3-visibility.html" target="_blank">Aceleramos tu visibilidad online.</a> <a href="http://www.mixtropy.com/mixtropy-landing-4-connecting.html" target="_blank">Conectamos con tu público objetivo</a>. <a href="http://www.mixtropy.com/mixtropy-landing-5-increase.html" target="_blank">Incrementamos tus oportunidades de negocio</a>. <a href="http://mixtropy.com/mixtropy-landing-6-loyalty.html" target="_blank">Fidelizamos tu cartera de clientes</a>&#8220;.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/el-contenido-para-un-blog-de-ecommerce-seducir-o-argumentar/">El contenido para un blog de eCommerce: ¿Seducir o argumentar?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/el-contenido-para-un-blog-de-ecommerce-seducir-o-argumentar/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>8 ejemplos de Growth Hacking aplicado a ecommerce</title>
+		<link>https://www.prestashop.com/blog/es/8-ejemplos-de-growth-hacking-aplicado-ecommerce/</link>
+		<comments>https://www.prestashop.com/blog/es/8-ejemplos-de-growth-hacking-aplicado-ecommerce/#comments</comments>
+		<pubDate>Tue, 23 Feb 2016 14:59:21 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+		<category><![CDATA[Tendencias E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14007</guid>
+		<description><![CDATA[<p>Comencemos con este segundo artículo de la serie sobre Growth Hackiing, concepto que quedó explicado en el post anterior, adentrándonos de lleno en ejemplos reales de Growth Hacking aplicado al comercio electrónico. Eso si, antes de empezar, permíteme decirte cómo tienes que leer este post o, más bien, cómo no debes interpretar este post: No [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/8-ejemplos-de-growth-hacking-aplicado-ecommerce/">8 ejemplos de Growth Hacking aplicado a ecommerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Comencemos con este segundo artículo de la serie sobre Growth Hackiing, concepto que quedó explicado <a href="https://www.prestashop.com/blog/es/guia-rapida-de-introduccion-growth-hacking/">en el post anterior</a>, adentrándonos de lleno en ejemplos reales de Growth Hacking aplicado al comercio electrónico.<span id="more-14007"></span></p>
+<p>Eso si, antes de empezar, permíteme decirte cómo tienes que leer este post o, más bien, cómo no debes interpretar este post:</p>
+<ul>
+<li>No pienses que son recetas infalibles.</li>
+<li>No creas que te van a funcionar a ti.</li>
+<li>No leas pensando cómo puedes aplicarlo en tu tienda online.</li>
+<li>No llames todavía a tu programador.</li>
+</ul>
+<p>Luego ya hablaremos un poquito más al respecto. ¿Vamos a por ello?</p>
+<h2>Mantén “viva” la llama del amor</h2>
+<p>Muchos son los expertos y estudios que apuntan a que es mucho más fácil reactivar un cliente inactivo que conseguir nuevos clientes. De hecho, es de sentido común pensar que si un cliente está satisfecho contigo, ¿para qué iba a invertir tiempo y esfuerzo en cambiarte?.</p>
+<p>No obstante, las relaciones se enfrían y terminamos por olvidar que necesitamos un producto, que podríamos adquirir algo mejor o que podríamos renovar lo que ya tenemos.</p>
+<p>En Postcron, por ponerte un ejemplo, no dejan que esta relación se enfríe y utilizan herramientas que detectan cuando llevas tiempo sin entrar en la aplicación, si llevas mucho tiempo usando sólo la versión gratuita, etc., y te ofrecen cupones descuento para intentar llevarte al siguiente nivel.</p>
+<p><img class="alignleft size-full wp-image-14018" alt="Growhacking_ejemplo1" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo1.jpg" width="592" height="362" /></p>
+<p>En cualquier otro caso, <b>tener en cuenta las preferencias de tus clientes, sus gustos y crear mecanismos de activación automáticos puede incrementar el número de ventas y la satisfacción del propio cliente.</b></p>
+<p>A todos nos gusta sentirnos especiales, que están pendientes de nosotros y que nos hagan reagalitos. ¿No es así?</p>
+<p>Si se enfría la llama, haz algo especial para reactivarla. No te arrepentirás.</p>
+<h2>Incentiva la recomendación a amigos y familiares</h2>
+<p>El Social Proof es un potente fenómeno que sigue funcionando. Conseguir que tus clientes te recomienden es un arma potentísima para captar a nuevos. Tomar una decisión es agotador, por pequeña que sea. Odiamos tomar decisiones y por eso, si algún conocido o persona a la que admiramos nos recomienda algo, tendemos a adoptarlo casi sin cuestionarlo. ¿Por qué no ahorrarnos un trabajo que ya ha hecho esta persona en la que confío o admiro?</p>
+<p>Las recomendaciones son por tanto muy valiosas, más incluso que la venta o beneficio que podamos cuantificar directamente. Por eso, es muy importante incentivar a tus clientes a realizar esas acciones de recomendación, bien regalando cupones de descuento u ofreciendo una comisión por afiliación.</p>
+<p><img class="alignleft size-full wp-image-14019" alt="Growhacking_ejemplo2" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo2.jpg" width="632" height="231" /></p>
+<h2>¡Pero no te dejes la cesta hombre de mi corazón!</h2>
+<p>¿Te imaginas al cajero, cajera o encargado persiguiéndote por los pasillos del centro comercial, conduciendo el carro (que llenaste hasta los topes de potitos, cerveza y patatas fritas) con una mano y el tarjetero en otra mano? ¿Te imaginas que te para y te dice que te lo puedes llevar en ese momento y que además (saca del bolsillo) te regala 5 €  de descuento en compresas, tampones o agua embotellada (así lo hacen, yo tampoco lo entiendo) por compras superiores a 20 €? (Y tu pensando: ¡¡si me he dejado el carro por ahí porque he olvidado la tarjeta de crédito!!). En fin. Pasa, te lo digo yo que pasa.</p>
+<p>En comercio electrónico, los índices de abandono de carrito de la compra pueden llegar a ser muy elevados. Por tanto, si consigues que un X % de esos abandonos de la compra completen el pedido, ganarás mucho.</p>
+<p>Utiliza plugins y mecanismos de rescate de cestas abandonadas y trata de facilitar e incentivar que acaben en compra. ¡Ya está casi todo hecho!</p>
+<p>Aquí, Amazon es la caña. Te recomiendo que hagas varios abandonos en Amazon y tomes nota …</p>
+<p><img class="alignleft size-full wp-image-14020" alt="Growhacking_ejemplo3" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo3.jpg" width="660" height="344" /></p>
+<p>&nbsp;</p>
+<h2>¿Testimonios de clientes? No, historias de felicidad</h2>
+<p>En todos los sitios a donde vamos encontramos testimonios de clientes. Se dice que es una poderosa herramienta y que funcionan muy bien. Se dice que es imprescindible. Pero, ¿en realidad basta con testimonios de tipo “todo bien, gracias”? ¿Por qué son tan valiosos?</p>
+<p>En toda compra hay una aspiración: obtener una versión mejor de nosotros mismos. Progresar, crecer, mejorar. Por eso, los testimonios deben ser historias que cuenten como una persona ha pasado de el estado A al estado A+ gracias a esa compra. Eso es un testimonio perfectamente válido.</p>
+<p>Contar cómo estábamos antes, por qué decidimos comprar el producto o servicio, cómo ha sido la experiencia y en qué nos ha convertido es lo que hará que otros clientes potenciales quieran repetir ese proceso.</p>
+<p>Por tanto, lo que deberías hacer es educar a esos clientes a escribir opiniones así, a contar su historia y estructurarla bien. Ofréceles incentivos porque el valor es incalculable.</p>
+<p><img class="alignleft size-full wp-image-14021" alt="Growhacking_ejemplo4" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo4.jpg" width="652" height="276" /></p>
+<h2>La velocidad del sitio y la usabilidad</h2>
+<p>Fíjate tu que cosas. ¿Cómo puede ser esto un Growth Hack tan extendido? ¿Cómo puede considerarse un Growth Hack estrella? Pues porque los números están ahí.</p>
+<p>Es un Growth Hack porque nació de una hipótesis, de unas métricas y se llegó a una conclusión: mejorando la usabilidad y velocidad dell sitio se incrementa el número de clientes y se reducen pérdidas.</p>
+<p>Así que no podemos evitar mencionarlo aquí. Son dos aspectos muy críticos y que son muy agradecidos en el sentido de que, invertir trabajo aquí, reporta grandes beneficios.</p>
+<p>En la parte de velocidad del sitio quizás puedas contratar a un buen profesional que te lo arregle. En la parte de usabilidad, aún más importante. Hay que repasar todos los procesos, en todas las posibilidades, posibles situaciones y con distintos tipos de personas. Ofrece ayudas, intenta que todo vaya sobre la seda.</p>
+<p><img class="alignleft size-full wp-image-14022" alt="Growhacking_ejemplo5" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo5.jpg" width="670" height="842" /></p>
+<p>Si ofreces una experiencia de usuario óptima, tus clientes lo agradecerán. Yo he oído de mi mujer (y muchas otras personas): “he visto en Instagram una camiseta de MarcaX que me ha encantado pero es que su web va tan mal en el móvil que me ha dado pereza …”. ¡Esto pasa mucho!</p>
+<h2>Ofrece una asistencia comercial instantánea</h2>
+<p>Cuando estamos viendo algo es porque nos interesa. Las compras pueden ser impulsivas y siempre son emocionales. Los típicos chats online son poderosos puesto que colocan a un experto humano en tiempo real para tratar de hacer la asistencia y favorecer la compra.</p>
+<p>En este sentido, hay que tener clarísimo que los agentes deben estar muy pero que muy bien entrenados en técnicas de venta.</p>
+<p>Aun así, deberías llevar a un nivel más allá el chat online y activarlo o mostrar mensajes cuando se produzcan algunas situaciones como errores en un formulario, problemas de pago, tiempo de inactividad en una página, etc.</p>
+<p>En ese momento tienes una gran excusa para “importunar” al usuario y tratar directamente con el, permitiendo que tu experto en ventas haga todo lo posible por convertir.</p>
+<h2>Ofrece productos relacionados o Cross Selling</h2>
+<p>Si, porque una vez que estás comprando algo … ¿no quieres más? Si te interesan las llaves, ¿no es lógico pensar que necesitas un llavero? El verdadero potencial de este sistema está en conseguir que tu cliente compre más de lo que quería comprar.</p>
+<p>Ofrecer packs que incluyen el producto que está buscando (y algo más) con precios interesantes o productos que, antes o después, vas a necesitar al comprar uno es algo que te ayudará a incrementar tu volumen de ventas.</p>
+<p><img class="alignleft size-full wp-image-14023" alt="Growhacking_ejemplo6" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo6.jpg" width="800" height="537" /></p>
+<p>Por último, también podemos usar el efecto Social Proof en Cross Selling, nombrando esa sugerencia como “Los clientes que compraron este producto también se llevaron …”. Si, si otros tomaron esta decisión, por algo será. ¿Verdad?</p>
+<h2>Utiliza la escasez y urgencia como arma</h2>
+<p>¡Que se va a acabar la lejía! Todos a comprar lejía por si acaso. Sólo la idea de poder querer algo mañana y descubrir que ya no es posible nos estresa.</p>
+<p>Por eso, la escasez y la urgencia son recursos a los que últimamente (desde hace más de 1.000 años, jejeje) se recurre. ¿Sabes por qué? Porque cuando es urgente tomamos peores decisiones o, dicho de otra forma, nos tomamos menos tiempo para comparar y decidir. Somos más impulsivos.</p>
+<p><img class="alignleft size-full wp-image-14024" alt="Growhacking_ejemplo7" src="https://www.prestashop.com/blog/es/files/2016/02/Growhacking_ejemplo7.jpg" width="810" height="432" /></p>
+<p>Este tipo de efectos los puedes conseguir tanto en tu página web como en tus emails, añadiendo un contador que incluso funciona dentro de tu cliente de correo. Fíjate en este artículo que habla de <a href="http://www.vcgs.net/blog/como-anadir-una-cuenta-atras-en-tus-campanas-de-email/">cómo integrar un contador de cuenta atrás en tus emails</a>.</p>
+<h2>Conclusiones finales …</h2>
+<p>Y, bueno, pues ya hemos llegado a un final que no deberá ser más que el principio. El principio de un conjunto de acciones que te plantearás hacer y, sobre todo, el principio de muchas vueltas que darás a tu cabecita pensando en cómo éstos ejemplos pueden ser aplicados a tu caso concreto. ¿Crees que te funcionarán? No lo sabes. Lo que tienes que hacer es, por supuesto, pensar de forma crítica, plantear una hipótesis y llevarlo a cabo teniendo datos que puedas recopilar y te sirvan para determinar, en un futuro, si esto es lo que necesitabas.</p>
+<p>Recuerda que no estamos aquí para repetir lo que a otros les ha funcionado, estamos para aumentar nuestro campo de visión y encontrar nuestros propios “best growth hacks” …</p>
+<p>¡Mucha suerte!</p>
+<p>Sobre el autor:</p>
+<p><img class="wp-image-13837 alignleft" style="margin-top: -2px;margin-bottom: -14px" alt="Victor_campuzano" src="https://www.prestashop.com/blog/es/files/2016/01/Victor.jpg" width="80" height="80" /><b>Víctor Campuzano</b> – Director de Marketing Online en <a href="http://www.grupographic.com/servicios/servicios-de-marketing-online/">Grupo Graphic</a>, Blogger en <a href="http://www.vcgs.net/blog/">Vcgs.net</a>, formador y speaker. Ahora formándome en <a href="http://www.iebschool.com/programas/postgrado-growth-hacking/" target="_blank">Growth Hacking por IEBS</a>”</p>
+<p>Twitter: <a href="http://www.twitter.com/vicampuzano">@vicampuzano</a>.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/8-ejemplos-de-growth-hacking-aplicado-ecommerce/">8 ejemplos de Growth Hacking aplicado a ecommerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/8-ejemplos-de-growth-hacking-aplicado-ecommerce/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Empieza a utilizar el vídeo marketing para el comercio electrónico</title>
+		<link>https://www.prestashop.com/blog/es/empieza-utilizar-el-video-marketing-para-el-comercio-electronico/</link>
+		<comments>https://www.prestashop.com/blog/es/empieza-utilizar-el-video-marketing-para-el-comercio-electronico/#comments</comments>
+		<pubDate>Mon, 22 Feb 2016 12:49:39 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14010</guid>
+		<description><![CDATA[<p>Una imagen puede valer más que mil palabras, pero un vídeo de un producto vale mucho más en términos de interacción y conversiones. El 96 % de los consumidores opina que los vídeos de productos son muy útiles a la hora de comprar online. Los vendedores que incluyen vídeos en sus tiendas registran un aumento [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/empieza-utilizar-el-video-marketing-para-el-comercio-electronico/">Empieza a utilizar el vídeo marketing para el comercio electrónico</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Una imagen puede valer más que mil palabras, pero un vídeo de un producto vale mucho más en términos de interacción y conversiones. <a href="http://www.reelseo.com/consumers-purchase-video/" target="_blank">El 96 % de los consumidores</a> opina que los vídeos de productos son muy útiles a la hora de comprar online. Los vendedores que incluyen vídeos en sus tiendas registran un aumento de <a href="http://blog.crazyegg.com/2015/03/05/videos-boost-conversion-rates/" target="_blank">hasta un 85 %</a>. Otras <a href="http://blog.goodvid.io/5-benefits-of-having-product-videos-on-ecommerce-site?utm_source=PrestaShop&amp;utm_medium=gp&amp;utm_campaign=video%20marketing" target="_blank">ventajas de utilizar vídeos en el comercio electrónico </a>incluyen: sesiones más duraderas, más páginas visitadas, tasas de conversión mejoradas y un aumento del tráfico web.</p>
+<p>Vamos a echarle un vistazo a algunos de los aspectos básicos que hay que tener en cuenta a la hora de desarrollar una estrategia de vídeo marketing para tu negocio.</p>
+<p><span id="more-14010"></span></p>
+<h2>Cómo seleccionar la estrategia de vídeo marketing adecuada</h2>
+<p>Antes de sumergirte en el aspecto creativo del vídeo marketing, deberás evaluar qué tipo de <a href="http://blog.goodvid.io/5-steps-to-create-a-video-strategy-for-your-online-store/?utm_source=PrestaShop&amp;utm_medium=gp&amp;utm_campaign=video%20marketing" target="_blank">estrategia de vídeo</a> te vendrá mejor. ¿Qué esperas lograr utilizando vídeos en tu sitio web? ¿Con qué tipos de recursos cuentas en términos de tiempo, presupuesto y habilidades? La función que quieras asignarle a los vídeos en tu sitio web y el esfuerzo que estés dispuesto a invertir en vídeo marketing deberían ayudarte a la hora de elaborar tu estrategia. Existen tres opciones principales por las que puedes optar:</p>
+<h4>1. Crea tus propios vídeos</h4>
+<p>Crear tus propios vídeos es la estrategia que más recursos requiere, pero también es la más gratificante a la hora de darle personalidad a tu marca. Si vendes productos con sello propio, tiene mucho sentido crear tus vídeos, ya que esta estrategia te permite promocionar tu propia marca, tus valores y tu visión.</p>
+<h4>2. Consigue vídeos de marcas, expertos y usuarios</h4>
+<p>No todos los vendedores online tienen la chispa necesaria para crear sus propios vídeos, ¡pero no pasa nada! Si no dispones de tiempo ni de recursos, o si simplemente no te sientes a gusto delante de la cámara, utiliza vídeos existentes sobre los productos y marcas que vendes. YouTube y otras plataformas creadas para compartir vídeos están repletas de <a href="https://goodvid.io/video-gallery?utm_source=PrestaShop&amp;utm_medium=gp&amp;utm_campaign=video%20marketing" target="_blank">vídeos creados por diferentes marcas, expertos y usuarios</a> y que están disponibles para ser compartidos en sitios de comercio electrónico. Y lo mejor de todo, ¡son gratis! Esta es una buena manera de comprobar cómo reaccionan los compradores a los vídeos en tu sitio web sin necesidad de dedicarle mucho tiempo a la producción, especialmente si nunca has tenido la ocasión de experimentar con el vídeo marketing hasta ahora.</p>
+<h4>3. Combina los vídeos propios y compartidos</h4>
+<p>Por último, saca lo mejor de ambas opciones y ofréceles a tus compradores una combinación de tus propios vídeos y de vídeos compartidos de otras fuentes. Esta es una gran forma de diversificar el contenido de tus vídeos, de mantener a tus compradores enganchados, y de demostrar los conocimientos sobre tu producto.</p>
+<h2>Selecciona los vídeos adecuados</h2>
+<p>Una vez elegida la estrategia de vídeo adecuada para tu negocio, llega la hora de pensar cuál es el tipo de contenido que tus compradores van a valorar más. Los vídeos deben atraer a los compradores con historias interesantes sobre los productos y motivarles a hacer clic en el botón de &#8220;añadir al carrito&#8221;. Algunos de los mejores tipos de vídeos para el comercio electrónico son:</p>
+<ul>
+<li><b style="line-height: 1.5;">Vídeos de opiniones (<i>reviews</i>)</b><b style="line-height: 1.5;"> sobre productos.</b><span style="line-height: 1.5;"> Permiten a los compradores saber cuáles son las funcionalidades y los beneficios principales del producto así como verlos en acción. Estos vídeos generan expectativas sobre un producto antes de que los clientes decidan comprarlo, y ayudan a evitar devoluciones.</span></li>
+<li><b style="line-height: 1.5;">Vídeotutoriales</b><span style="line-height: 1.5;">. Los vídeos que muestran </span><a style="line-height: 1.5;" href="http://blog.goodvid.io/how-online-retailers-can-leverage-how-to-video-content/?utm_source=PrestaShop&amp;utm_medium=gp&amp;utm_campaign=video%20marketing" target="_blank">cómo montar, utilizar y cuidar los productos</a><span style="line-height: 1.5;"> son especialmente importantes en el caso de artículos más complejos como dispositivos electrónicos, electrodomésticos, cosméticos y productos para bebés.</span></li>
+<li><b style="line-height: 1.5;">Vídeos de desempaquetado.</b><span style="line-height: 1.5;"> Disponer de un vídeo que muestre el empaquetado de un producto y cómo se desenvuelve, ayuda a que los compradores visualicen mucho mejor sus compras. Estos vídeos ayudan a reducir la ansiedad del comprador y generan interés en el producto. </span></li>
+</ul>
+<p>Cuando selecciones vídeos para tu sitio web, piensa sobre el tipo de preguntas que los compradores probablemente vayan a plantearse sobre tus productos y deja que los vídeos les respondan. Recuerda: el vídeo debe actuar como un vendedor virtual en tu web de comercio electrónico, así que elige vídeos que te permitan hacer frente a las dudas que los compradores puedan tener.</p>
+<h2>Mejores prácticas para vídeos de productos para el comercio electrónico</h2>
+<p>Cuando están bien hechos, los vídeos pueden aportar mejoras considerables en lo que respecta a las tasas de participación y conversión de los comercios electrónicos. Estos son algunos consejos prácticos que los vendedores online deben tener en cuenta a la hora de desarrollar tácticas de vídeo marketing:</p>
+<ol>
+<li><b></b><b>Inspírate. </b>Busca en YouTube vídeos sobre los productos y marcas que tú estés vendiendo o sobre productos de la misma categoría. Busca los vídeos por marcas, usuarios, expertos y minoristas. Anota la información que proporcionen, el estilo y la duración de sus vídeos y llamadas a la acción. Utiliza todos estos datos para decidir qué tipo de vídeos podrías crear o compartir en tu sitio web.</li>
+<li><b></b><b>Empieza añadiendo vídeos a tus productos más lucrativos. </b>Si hasta ahora nunca habías utilizado vídeos en tu web, es una buena idea que empieces con tus productos más vendidos o con aquellas páginas de productos con mayor tráfico. Esto te permitirá obtener de forma rápida gran cantidad de datos sobre los efectos que tiene el uso de vídeos en la participación y las conversiones.</li>
+<li><b></b><b>Incorpora los vídeos en lugares estratégicos para la conversión.</b> Si quieres hacer un seguimiento sobre cómo afectan los vídeos a las tasas de conversión de &#8220;añadir al carrito&#8221;, entonces asegúrate de que incluyes vídeos directamente en páginas de productos, no en páginas de categorías, ya que esto aumentará los intentos de compra.</li>
+<li><b></b><b>Mejora la visibilidad de tus vídeos.</b> Sitúa los vídeos de tus productos junto a las fotos y descripciones correspondientes. Esto llamará la atención de los compradores inmediatamente y hará que se interesen por el contenido. Intenta, en la medida de lo posible, incluir el vídeo en la mitad superior de la página. Evita poner los vídeos al final de la página, ya que les resultará más fácil pasarlos por alto.</li>
+<li><b></b><b>Añade varios vídeos a las páginas de productos. </b>Ya tienes varias fotos de productos en tus páginas, ¿por qué no incluir varios vídeos también? Opta por una combinación de diferentes tipos de vídeos para seducir a los compradores. Mezcla tus propios vídeos con vídeos generados por usuarios, testimonios de clientes y opiniones sobre productos para proporcionarles a los compradores una experiencia real sobre el producto. No tengas miedo de probar diferentes opciones en tu <a href="http://blog.goodvid.io/5-ecommerce-video-trends-for-2016/?utm_source=PrestaShop&amp;utm_medium=gp&amp;utm_campaign=video%20marketing" target="_blank">galería de vídeos</a> hasta descubrir tu fórmula del éxito.</li>
+<li><b></b><b>Comprueba que tus vídeos se vean bien en los dispositivos móviles</b>. Vivimos en un mundo en el que los dispositivos móviles predominan, y los compradores buscan una experiencia perfecta, sin importar qué dispositivo utilicen para acceder a tu tienda online. No olvides incluir un diseño adaptativo en tus vídeos, para que los compradores puedan verlos en máxima calidad cuando naveguen por tu web desde un dispositivo móvil.</li>
+</ol>
+<h2>¿Y ahora qué?</h2>
+<p>Una vez que dispongas del borrador de tu estrategia de vídeo marketing, asegúrate de probar cómo funcionan los vídeos en tu comercio electrónico. Estas son algunas de las cosas que deberás controlar:</p>
+<ul>
+<li>¿Cómo se comportan los usuarios en las páginas con vídeos frente a las que no cuentan con ninguno?</li>
+<li>¿Qué porcentaje de los compradores realmente ve los vídeos?</li>
+<li>¿Cuánto tiempo emplean los compradores viendo el vídeo?</li>
+<li>¿Cómo afectan los vídeos a la duración de la sesión y al número de páginas visitadas?</li>
+<li>¿Cuáles son las tasas de conversión en las páginas que incluyen vídeos frente a aquellas que no los incluyen?</li>
+</ul>
+<p>Contestar a estas preguntas y controlar el comportamiento de los compradores te ayudará a conocer cuál es el enfoque adecuado para ti. Los vídeos son un complemento excelente para tus esfuerzos de marketing, así que sigue experimentando con ellos y perfeccionándolos. Si todavía no has empezado a utilizar vídeos, ¡no pierdas la oportunidad de proporcionarles a tus compradores una gran experiencia con vídeos que sin duda les encantarán!</p>
+<h2>Sobre la autora</h2>
+<p><img class="alignleft" alt="miljana-mitic" src="https://www.prestashop.com/blog/en/files/2016/02/miljana-mitic.png" width="100" height="100" /></p>
+<p>Miljana Mitic es la directora de Marketing de contenidos de <a href="https://goodvid.io/" target="_blank">Goodvidio</a>, una solución de Software como un Servicio (SaaS, por sus siglas en inglés), que ayuda a que las tiendas online implementen los mejores vídeos de productos de las redes sociales en sus páginas de productos. Miljana posee un doctorado en Marketing de redes sociales y escribe acerca de cómo las tiendas online pueden sacar el máximo provecho de los vídeos de productos. Le encanta descubrir nuevos restaurantes, leer, jugar con perros y ver vídeos de YouTube.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/empieza-utilizar-el-video-marketing-para-el-comercio-electronico/">Empieza a utilizar el vídeo marketing para el comercio electrónico</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/empieza-utilizar-el-video-marketing-para-el-comercio-electronico/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ubricar &#8211; Todo para tu moto</title>
+		<link>https://www.prestashop.com/blog/es/caso-de-exito-ubricar-todo-para-tu-moto/</link>
+		<comments>https://www.prestashop.com/blog/es/caso-de-exito-ubricar-todo-para-tu-moto/#comments</comments>
+		<pubDate>Wed, 17 Feb 2016 15:40:17 +0000</pubDate>
+		<dc:creator><![CDATA[Jhon Suarez Pardo]]></dc:creator>
+				<category><![CDATA[Caso de éxito]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13776</guid>
+		<description><![CDATA[<p>Hoy estamos con Antonio José Borrego, responsable de Ubricarmotos.com, empresa dedicada a la venta de accesorios, repuestos y equipamiento para el motorista y su moto. Antonio, cuéntanos un poco sobre Ubricar. UBRICAR (Ubrique Comercial de Accesorios y Recambios) surge hace 40 años cuando su fundador, Juan Chacón, abre al público un pequeño taller de motocicletas. [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-ubricar-todo-para-tu-moto/">Ubricar &#8211; Todo para tu moto</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Hoy estamos con Antonio José Borrego, responsable de Ubricarmotos.com, empresa dedicada a la venta de accesorios, repuestos y equipamiento para el motorista y su moto.<span id="more-13776"></span></p>
+<h2><span style="color: #59bbc4">Antonio, cuéntanos un poco sobre Ubricar.</span></h2>
+<p>UBRICAR (Ubrique Comercial de Accesorios y Recambios) surge hace 40 años cuando su fundador, Juan Chacón, abre al público un pequeño taller de motocicletas. Hoy en día, cuatro décadas después, es referente nacional de calidad y profesionalidad avalado por una extensa y reconocida trayectoria en la comercialización de repuestos, accesorios y equipamiento para el motorista y su moto. Dispone de un inmueble de tres plantas en el número 8 de la calle Ingeniero Juan Romero Carrasco de Ubrique (Cádiz), que alberga las oficinas principales de la empresa, tienda, almacén e instalaciones de expedición y embalaje, desde donde se envían diariamente decenas de pedidos a todos los puntos de la geografía española y Portugal, provenientes principalmente de nuestra tienda on-line <span style="color: #800000"><strong><a href="www.ubricarmotos.com " target="_blank"><span style="color: #800000">www.ubricarmotos.com</span></a>.</strong></span> De igual modo, UBRICAR cuenta con otra web específica para profesionales, taller mecánico propio, distribución oficial de Stihl, Viking y Motoviajeros, <strong>una revista digital dedicada a viajes en moto.</strong></p>
+<h2><span style="color: #59bbc4">¿Cómo y por qué elegiste PrestaShop?</span></h2>
+<p>Ubricar siempre ha apostado por la innovación y el empleo de las nuevas tecnologías de la información y la comunicación, y muy especialmente por los canales de venta de comercio electrónico. En 2008 creamos la web y utilizamos los sistemas que nos permitían, aún de un modo incipiente y muy básico, vender por Internet. Hemos probado muchos sistemas de gerencia de contenidos hasta llegar a Prestashop, la plataforma que reúne las herramientas de gestión y venta más completas que hemos encontrado en el mercado. Nuestra empresa <strong>busca continuamente mejoras y soluciones que permitan optimizar la experiencia de compra del cliente</strong>, y Prestashop trabaja precisamente en la misma línea.</p>
+<h2><span style="color: #59bbc4">¿Cómo has conseguido tráfico en tu web?</span></h2>
+<p>Cuidamos muy especialmente <strong>la correcta indexación de productos, sus descripciones, sus imágenes; buscamos minimizar errores que nos puedan penalizar en buscadores </strong>y hemos realizado campañas puntuales de mejora de posicionamiento y SEO.</p>
+<h2><span style="color: #59bbc4">Siendo una tienda física con más de 40 años en el mercado, ¿ha sido difícil la incursión al ámbito online? ¿Cuál es el mayor reto que has afrontado?</span></h2>
+<p>Las continuas actualizaciones y mejoras tecnológicas siempre suponen un reto y un desafío para el cual es necesario estar bien preparado, ya que los avances y nuevas necesidades son inexorables; en una tienda física estas particularidades no existen. Pero en nuestros días los cambios son continuos, y los retos también lo son. <strong>Los inicios siempre resultan difíciles, es necesario trabajar mucho y perseverar más</strong>. Hemos dedicado mucho esfuerzo y muchas ilusiones en crear una tienda especializada que sea respetada y valorada por la comunidad motera, siempre entendida y exigente.</p>
+<h2><span style="color: #59bbc4">¿Recomendarías que negocios como el tuyo invirtieran en esta oportunidad de Marketing online para crecer?</span></h2>
+<p>Sí, pero sin olvidar que exige una dedicación constante y un buen equipo de trabajo; de no ser así, la misión puede quedarse tan solo en un intento. <strong>La correcta implantación y gestión de una tienda on-line requiere una apuesta decidida y consistente</strong>. De igual modo, es imprescindible asumir las particularidades y exigencias que presenta el comercio electrónico, sin duda en muchos casos necesarias para que empresas y pequeñas tiendas puedan alcanzar un espectro comercial que resultaría impensable sin la ayuda de las nuevas tecnologías.</p>
+<h2><span style="color: #59bbc4">¿Qué consejos darías a una tienda que se lanza ahora?</span></h2>
+<p>Paciencia y constancia. Los resultados nunca llegan de un día para otro. Utilizar las mejores herramientas de gestión y rodearse de profesionales dinámicos y entusiastas, en nuestro caso particular hemos acudido a Antonio Díaz, de <span style="color: #800000"><a href="http://www.prestasoporte.es" target="_blank"><span style="color: #800000"><strong>prestasoporte.es</strong></span></a></span>, cuyo apoyo nos ha resultado de enorme ayuda para mejorar y evolucionar nuestra web. Prestashop, en su campo, nos ha demostrado no tener rival. Con mucho margen de mejora, ciertamente, porque es inevitable e indispensable que así sea. Pero a años luz de otras plataformas de venta on-line.</p>
+<h2><span style="color: #59bbc4">¿Algo más que quieran compartir?</span></h2>
+<p>Tal vez nuestro secreto… Y es que, aunque parezca paradójico, para nosotros<strong> lo más importante es que detrás del mundo virtual que nos rodea haya siempre PERSONAS</strong>. Un equipo humano que sepa entender un buen proyecto, que se implique en él, que <strong>comprenda y atienda al cliente siempre con profesionalidad y vocación de servicio durante todas las fases del proceso de interacción</strong>, que forme una piña sin fisuras. Si el servicio post-venta fracasa, de nada sirve todo lo anterior. Y viceversa. En 2008 entendimos que el futuro sería digital y creamos <a href="http://www.ubricarmotos.com" target="_blank"><strong><span style="color: #800000">ubricarmotos.com</span></strong></a>. Algunos nos llamaron locos, otros visionarios… <strong>En 2014 hemos fundado la primera revista dedicada en cuerpo y alma al moto turismo</strong>… y también se ha concebido en soporte digital. ¿Nuevas tecnologías? Sí, pero unido a las PERSONAS.</p>
+<p>Visita la web: <span style="color: #800000"><strong><a href="http://www.ubricarmotos.com" target="_blank"><span style="color: #800000">www.</span></a><a href="http://www.ubricarmotos.com" target="_blank"><span style="color: #800000"><strong>ubricarmotos.com</strong></span></a></strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-ubricar-todo-para-tu-moto/">Ubricar &#8211; Todo para tu moto</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/caso-de-exito-ubricar-todo-para-tu-moto/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Estudio de caso sobre las redes sociales: Wobybi te lleva de paseo</title>
+		<link>https://www.prestashop.com/blog/es/estudio-de-caso-sobre-las-redes-sociales-wobybi-te-lleva-de-paseo/</link>
+		<comments>https://www.prestashop.com/blog/es/estudio-de-caso-sobre-las-redes-sociales-wobybi-te-lleva-de-paseo/#comments</comments>
+		<pubDate>Fri, 12 Feb 2016 08:30:41 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Caso de éxito]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13971</guid>
+		<description><![CDATA[<p>Descubre Wobybi, el vendedor PrestaShop destacado de esta semana. Estuvimos con Alvaro Basterra, el fundador de la marca, que nos explicó cómo utiliza las redes sociales para promocionar su tienda online. ¡Sigue leyendo para descubrir todo lo que nos dijo! ¿En qué consiste Wobybi? Wobybi es una tienda española de bicicletas personalizadas. Somos especialistas en [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/estudio-de-caso-sobre-las-redes-sociales-wobybi-te-lleva-de-paseo/">Estudio de caso sobre las redes sociales: Wobybi te lleva de paseo</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Descubre <a href="http://www.wobybi.es/" target="_blank">Wobybi</a>, el vendedor PrestaShop destacado de esta semana. Estuvimos con Alvaro Basterra, el fundador de la marca, que nos explicó cómo utiliza las redes sociales para promocionar su tienda online. ¡Sigue leyendo para descubrir todo lo que nos dijo!<br />
+<span id="more-13971"></span></p>
+<h2 style="color:#88ae01">¿En qué consiste Wobybi?</h2>
+<p><a href="http://www.wobybi.es/" target="_blank">Wobybi</a> es una tienda española de bicicletas personalizadas. Somos especialistas en crear bicicletas únicas, por eso nuestra tienda online, que funciona con PrestaShop 1.5.2, ha sido pensada para que cada cliente pueda diseñar su propia bicicleta. El primer paso es elegir un modelo de base, luego, personalizar cada componente eligiendo sus colores preferidos y, por último, comprobar que esté todo bien y confirmar el pedido. </p>
+<h2 style="color:#88ae01">¿Qué efecto han tenido las redes sociales en tu negocio?</h2>
+<p>Las redes sociales son una excelente manera de conocer a nuestra comunidad y conectar con ella. Intentamos entablar una relación personal con nuestros seguidores, nos gusta animarlos a que interactúen con nosotros, nos dejen sus comentarios y compartan fotos y vídeos. </p>
+<p>El contacto con nuestros clientes es particularmente importante para nosotros, puesto que vendemos artículos personalizados. Nos permite brindar un servicio único, exclusivo y personal a cada uno de nuestros clientes.</p>
+<h2 style="color:#88ae01">¿Qué herramientas y canales de redes sociales utilizáis?</h2>
+<p><a href="https://www.facebook.com/Wobybi" target="_blank">Facebook</a> e <a href="https://www.instagram.com/wobybi/" target="_blank">Instagram</a> resultan útiles porque son muy visuales y nos permiten mostrar las fotos de nuestros productos. También usamos <a href="https://twitter.com/wobybi" target="_blank">Twitter</a>, pero sobre todo como portal de servicio al cliente y como medio para compartir información. </p>
+<p>Nuestras herramientas preferidas son: </p>
+<ul style="padding-left: 30px">
+<li><a href="https://hootsuite.com/" target="_blank">Hootsuite</a> para programar las publicaciones</li>
+<li><a href="https://sumall.com/" target="_blank">SumAll</a> para recibir un resumen diario y semanal de las notificaciones</li>
+<li><a href="https://mention.com/en/" target="_blank">Mention</a> para saber más de la gente que nos menciona</li>
+<li><a href="https://feedly.com/i/welcome" target="_blank">Feedly</a> para leer noticias sobre nuestro sector</li>
+<li><a href="https://bitly.com/" target="_blank">Bitly</a> para acortar los URL y controlar el número de clics</li>
+</ul>
+<h2 style="color:#88ae01">¿De dónde viene la inspiración para el contenido de las redes sociales?</h2>
+<p>Contamos con una persona que se encarga de gestionar, a tiempo completo, todos nuestros canales de redes sociales. Nuestros posts se basan en una estrategia definida en el plan de marketing: el objetivo es crear un contenido original y de calidad para atraer nuevos clientes potenciales. Las ideas y la inspiración pueden surgir de cualquier parte &#8212; Instagram, Pinterest, reuniones, brainstorming&#8230; ¡Lo más importante que deben tener en mente los vendedores es concentrarse en las campañas y no olvidar el objetivo final!</p>
+<h2 style="color:#88ae01">¿Podrías compartir algunos consejos con otros vendedores que estén empezando a utilizar las redes sociales?</h2>
+<p>Lo principal es definir una estrategia para cada red social y, al principio, centrarse en un par de ellas; no sirve de nada &#8220;estar por estar&#8221;. Es esencial publicar un contenido personalizado de calidad, creado específicamente para su base de clientes. Nosotros, por ejemplo, utilizamos mucho contenido con GIF o vídeos, que se ajusta perfectamente a nuestro público. Por último, no podemos olvidarnos de responder a todas las preguntas y comentarios que recibamos en las redes sociales, ¡es lo más importante!</p>
+<hr width="20%" align="left">
+<p>¿Listo para lanzar tu campaña de redes sociales y promocionar tu negocio de comercio electrónico? Echa un vistazo a la primera parte de nuestra serie con la Social Media Coach para los países germanohablantes y Reino Unido en HootSuite, Hanna Oeljeschlaeger, <a href="https://www.prestashop.com/blog/es/desarrolla-tu-negocio-de-comercio-electronico-traves-de-las-redes-sociales-parte-1-de-2/">desarrolla tu negocio de comercio electrónico a través de las redes sociales</a>.</p>
+<p>¿Todavía no tienes una tienda online? ¿Qué esperas para comenzar hoy mismo con <a href="http://www.prestashop.com/" target="_blank">PrestaShop</a>. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/estudio-de-caso-sobre-las-redes-sociales-wobybi-te-lleva-de-paseo/">Estudio de caso sobre las redes sociales: Wobybi te lleva de paseo</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/estudio-de-caso-sobre-las-redes-sociales-wobybi-te-lleva-de-paseo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Decántalo &#8211; Vino Español para el mundo</title>
+		<link>https://www.prestashop.com/blog/es/caso-de-exito-decantalo-vino-espanol-para-el-mundo/</link>
+		<comments>https://www.prestashop.com/blog/es/caso-de-exito-decantalo-vino-espanol-para-el-mundo/#comments</comments>
+		<pubDate>Wed, 10 Feb 2016 15:00:23 +0000</pubDate>
+		<dc:creator><![CDATA[Jhon Suarez Pardo]]></dc:creator>
+				<category><![CDATA[Caso de éxito]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13741</guid>
+		<description><![CDATA[<p>Hoy estamos con Héctor Pla, director de marketing de Decántalo, dedicado a la venta de vino con denominación de origen. Héctor, cuéntanos un poco sobre Decántalo. Decántalo es una tienda online de vino español, con más de 3.000 referencias a la venta de todas las denominaciones de origen, variedades y métodos de elaboración. Llevamos 5 [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-decantalo-vino-espanol-para-el-mundo/">Decántalo &#8211; Vino Español para el mundo</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Hoy estamos con Héctor Pla, director de marketing de Decántalo, dedicado a la venta de vino con denominación de origen.<span id="more-13741"></span></p>
+<h2><span style="color: #59bbc4">Héctor, cuéntanos un poco sobre Decántalo.</span></h2>
+<p>Decántalo es una <span style="color: #993300"><strong><a href="http://www.decantalo.com/es/" target="_blank"><span style="color: #993300">tienda online de vino español</span></a></strong></span>, con más de 3.000 referencias a la venta de todas las denominaciones de origen, variedades y métodos de elaboración. Llevamos 5 años en el mercado, y en este tiempo hemos servido cerca de <strong>50.000 pedidos en todo Europa.</strong></p>
+<p>Nos gusta decir que nos apasiona el vino, y eso es lo que intentamos transmitir en todas nuestras acciones. Tanto a la hora de seleccionar los productos que ponemos a la venta, como al <strong>crear los contenidos, y en cada uno de los pasos que conforman el proceso de compra de un cliente en nuestra web.</strong></p>
+<p>Estamos muy orgullosos de habernos situado en este tiempo como uno de los líderes en el mercado de vino español en todo Europa.</p>
+<h2><span style="color: #59bbc4">¿Cómo y por qué elegiste PrestaShop?</span></h2>
+<p>Empezamos utilizando software propio para nuestro proyecto, pero nos dimos cuenta que utilizando PrestaShop podíamos<strong> reducir costes de implementación de nuevas funcionalidades además de reducir el “time to market”</strong>, algo cada día más importante debido a la velocidad a la que se mueve todo en Internet.</p>
+<p>Hemos descubierto una gran plataforma, sólida, probada, que te permite vender desde el primer día “olvidándote” hasta cierto punto de la parte tecnológica y centrando tus esfuerzos en vender. Además, cuenta con una gran comunidad de desarrolladores detrás, lo que se acaba traduciendo en una constante innovación y desarrollo de nuevas funcionalidades.</p>
+<h2><span style="color: #59bbc4">¿Habría más internacionalización de los vinos del País si el precio del transporte fuera más competitivo? ¿En qué partes del mundo vendes?</span></h2>
+<p>Vendemos en todo el territorio de la Unión Europea. Evidentemente, el coste del transporte es un freno para el consumidor, ya que se percibe como un “gasto extra” al margen del producto. Y especialmente en nuestro caso, ya que el vino es un producto con mucho peso por lo que tiene un coste elevado, además de ser un producto muy delicado de transportar.</p>
+<p>Seguro que una bajada en el precio de los transportes sería un buen impulso a la internacionalización de los vinos del país.</p>
+<h2><span style="color: #59bbc4">¿Cómo consigues destacar en un mercado tan maduro, sabiendo que los costes de Logística y los márgenes de beneficio son tan ajustados?</span></h2>
+<p>Es difícil. Como dices, es un mercado muy maduro en el que cada día aparecen nuevos competidores.</p>
+<p>En Decántalo pensamos que l<strong>a clave para la diferenciación es cuidar al máximo todos los detalles. Desde los contenidos, el transporte, la atención al cliente…</strong> Intentar transmitir esa pasión por el vino de la que hablaba antes.</p>
+<p>Nuestro producto es un producto muy emocional, y creemos que es así como lo tenemos que tratar. O por lo menos, pensamos que así es como le gusta percibirlo al consumidor. <strong>Intentarte convertir en “algo” especial. Algo tan fácil de decir y tan difícil de conseguir.</strong></p>
+<h2><span style="color: #59bbc4">¿Algo más que quieras compartir? </span></h2>
+<p>Soy de la idea de que detrás de un gran proyecto siempre hay unas grandes personas, y no me gustaría acabar sin citar a dos grandes equipos que nos han ayudado a realizar este cambio de tecnología.</p>
+<p><a href="http://www.idnovate.com/" target="_blank"><strong><span style="color: #993300">Idnovate</span></strong></a>, el equipo que ha desarrollado la personalización de nuestra tienda. Unos grandes profesionales con un gran conocimiento de PrestaShop que han hecho posible que demos este paso de la manera más sencilla y con el menor impacto posible para nuestro negocio.</p>
+<p>Y por otro lado <a href="http://www.penedestic.com" target="_blank"><strong><span style="color: #993300">Penedès TIC</span></strong></a>, quienes se han encargado de la parte que no ve el cliente, pero que es igual de importante para que todo funcione a la perfección: el sistema de gestión de stocks. Debido a nuestra gran cantidad de referencias, necesitábamos un sistema de gestión flexible, robusto y acabamos apostando también por un sistema Open Source que se entendiera a la perfección con PrestaShop.</p>
+<p>Visita la web: <strong><span style="color: #993300"><a href="http://www.decantalo.com/es/" target="_blank"><span style="color: #993300">www.decantalo.com</span></a></span></strong></p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-decantalo-vino-espanol-para-el-mundo/">Decántalo &#8211; Vino Español para el mundo</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/caso-de-exito-decantalo-vino-espanol-para-el-mundo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fundamentos básicos de retargeting para vendedores online</title>
+		<link>https://www.prestashop.com/blog/es/fundamentos-basicos-de-retargeting-para-vendedores-online/</link>
+		<comments>https://www.prestashop.com/blog/es/fundamentos-basicos-de-retargeting-para-vendedores-online/#comments</comments>
+		<pubDate>Mon, 08 Feb 2016 08:30:15 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13966</guid>
+		<description><![CDATA[<p>Como compradores online, todos hemos vivido esta situación: navegas por el sitio web de alguna tienda, decides que por ahora no vas a comprar y continúas leyendo artículos de BuzzFeed. Cuando sigues navegando por Internet, te das cuenta de que los productos que acabas de consultar aparecen en el borde de la pantalla. ¿Cómo sabe [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/fundamentos-basicos-de-retargeting-para-vendedores-online/">Fundamentos básicos de retargeting para vendedores online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Como compradores online, todos hemos vivido esta situación: navegas por el sitio web de alguna tienda, decides que por ahora no vas a comprar y continúas leyendo artículos de BuzzFeed. Cuando sigues navegando por Internet, te das cuenta de que los productos que acabas de consultar aparecen en el borde de la pantalla. ¿Cómo sabe ese sitio web que te interesan esos productos? Si eres un vendedor online, no puedes evitar preguntarte si esto funcionaría para tu <a href="http://prestashop.com/">tienda online</a>. La respuesta es sí, probablemente. Invitamos a Garrett Gan de <a href="http://www.thalamus.co/" target="_blank">Thalamus</a>, un sitio web de análisis de publicidad digital, para que compartiera sus conocimientos con nosotros.<br />
+<span id="more-13966"></span></p>
+<h2 style="color:#353466">1. ¿Qué es el retargeting?</h2>
+<p>El retargeting es un tipo de publicidad que solo se muestra a las personas que han visitado previamente tu tienda online. Funciona del siguiente modo: añades un píxel (o una línea de código) en tu sitio web, que dejará una cookie de seguimiento en el navegador del usuario. Con esta cookie de seguimiento, las <a href="http://www.thalamus.co/display/retargeting" target="_blank">empresas de retargeting</a> son capaces de ver los diferentes sitios web por los que navega el usuario en Internet y mostrarle anuncios relacionados.</p>
+<p>La técnica se parece a las etiquetas que los científicos colocan a los animales para observar su comportamiento, salvo que en este caso la etiqueta se coloca en el navegador del cliente para mostrarle más tarde anuncios acordes a su conducta. </p>
+<p>Uno de los mejores casos de utilización del retargeting es mostrar anuncios a los usuarios que han consultado un producto específico de tu sitio web –zapatos, pantalones, camisetas u otros artículos– y mostrarles anuncios de ese mismo producto después de que abandonen tu sitio web (sin haberlo comprado) con un pequeño descuento que los incite a volver y finalizar su compra. </p>
+<h2 style="color:#353466">2. ¿Qué tipos de empresas usan el retargeting? ¿Por qué?</h2>
+<p>Todos los tipos de empresas utilizan el retargeting, entre ellas empresas de comercio electrónico, aplicaciones móviles, sitios web B2B y ¡hasta empresas de publicidad!</p>
+<p>El retargeting es una herramienta poderosa que te permite comunicarte con los usuarios que ya han interactuado con tu sitio web y aportar más valor a su experiencia. </p>
+<p>Además, personaliza su experiencia de navegación, ya que los anuncios mostrados corresponderán a artículos específicos que han consultado previamente, pero esta vez con descuentos y/o regalos. Sin esta tecnología, los vendedores no tendrían otra opción que decidir qué productos podrían interesar a un usuario en concreto. </p>
+<p>Cuando apareció el retargeting, a los consumidores les parecía un tanto inquietante, pero muchas empresas han utilizado esta técnica durante años y ahora es una práctica ampliamente aceptada.</p>
+<h2 style="color:#353466">3. ¿Cuánto cuesta hacer una campaña de retargeting?</h2>
+<p>Los vendedores online pueden empezar con un importe inicial de 100 dólares por semana (o incluso menos) con empresas como <a href="http://www.thalamus.co/ad_partners/adroll" target="_blank">AdRoll</a> o <a href="http://www.thalamus.co/ad_partners/retargeter" target="_blank">Retargeter</a>. Asimismo, existen empresas más grandes, como <a href="http://www.thalamus.co/ad_partners/tellapart" target="_blank">TellApart</a>, <a href="http://www.thalamus.co/ad_partners/criteo" target="_blank">Criteo</a> o <a href="http://www.thalamus.co/ad_partners/simpli-fi" target="_blank">Simpli.fi</a>, que ofrecen funcionalidades más avanzadas como la optimización creativa dinámica (cambiar anuncios algorítmicamente para mostrar el que dé mejores resultados) o los anuncios a partir del catálogo de productos (el consumidor ve artículos similares a los que acaba de consultar en un sitio web de comercio electrónico).</p>
+<h2 style="color:#353466">4. ¿Cómo pueden iniciarse en el retargeting los vendedores online?</h2>
+<p>Los vendedores online, independientemente de su tamaño, deberían empezar con campañas anuales de retargeting. Muchas empresas de comercio electrónico han visto aumentar el número de conversiones reales de clientes con solo ofrecer un pequeño descuento en un anuncio de retargeting cuando un usuario abandona el carrito.</p>
+<p>Una vez que los vendedores sepan mejor cómo incrementar las conversiones a partir de anuncios de retargeting regulares, podrán pasar a utilizar mecanismos más sofisticados, como la optimización creativa dinámica o los anuncios a partir de catálogos de productos (mencionados anteriormente), así como trabajar con <a href="http://www.thalamus.co/display/ad-network" target="_blank">redes publicitarias</a> para atraer más clientes al sitio web.</p>
+<hr align="left" width="20%">
+<p>Empieza hoy mismo consultando análisis de empresas de retargeting como AdRoll y Retargeter en <a href="http://www.thalamus.co/" target="_blank">Thalamus</a>. Después, anímate y lanza tu primera campaña de retargeting. ¿Ya has puesto en marcha una campaña? ¡Cuéntanos tus trucos! El apartado de comentarios está a tu disposición. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/fundamentos-basicos-de-retargeting-para-vendedores-online/">Fundamentos básicos de retargeting para vendedores online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/fundamentos-basicos-de-retargeting-para-vendedores-online/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Primeros pasos para utilizar vídeos en las redes sociales</title>
+		<link>https://www.prestashop.com/blog/es/primeros-pasos-para-utilizar-videos-en-las-redes-sociales/</link>
+		<comments>https://www.prestashop.com/blog/es/primeros-pasos-para-utilizar-videos-en-las-redes-sociales/#comments</comments>
+		<pubDate>Mon, 08 Feb 2016 07:02:17 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13968</guid>
+		<description><![CDATA[<p>A todos nos ha pasado: entramos en nuestra cuenta de Facebook para echarle un vistazo rápido, y de repente nos damos cuenta de que llevamos 30 minutos envueltos en una espiral de vídeos. Eres la prueba viviente: los vídeos no sólo ayudan a atraer la atención de los clientes, sino que cuando se realizan correctamente, [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/primeros-pasos-para-utilizar-videos-en-las-redes-sociales/">Primeros pasos para utilizar vídeos en las redes sociales</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>A todos nos ha pasado: entramos en nuestra cuenta de Facebook para echarle un vistazo rápido, y de repente nos damos cuenta de que llevamos 30 minutos envueltos en una espiral de vídeos. Eres la prueba viviente: los vídeos no sólo ayudan a atraer la atención de los clientes, sino que cuando se realizan correctamente, pueden ayudar a que las empresas afiancen su marca en las redes sociales. Hoy podrás descubrir cómo empezar a utilizar vídeos en las redes sociales para mejorar tu presencia.<br />
+<span id="more-13968"></span></p>
+<h2 style="color:#e07531">Elige una plataforma</h2>
+<p>Antes de que pulses «grabar», necesitarás decidir dónde quieres compartir tu contenido. La plataforma que elijas determinará la duración de tu vídeo y viceversa. Empecemos con la más popular: </p>
+<h4><a href="https://vine.co/" target="_blank">Vine</a></h4>
+<p>Esta red social fue adquirida por Twitter en 2012. Lo que hace que Vine sea una plataforma única es que soporta vídeos muy cortos; el público objetivo suele tener menos de 20 años. Tras la adquisición, 1 de cada 5 vídeos de Vine son también compartidos en Twitter, aumentando ligeramente el alcance de los vendedores. <strong>Duración máxima de los vídeos: 6 segundos</strong></p>
+<h4><a href="https://www.instagram.com/" target="_blank">Instagram</a></h4>
+<p>Con Instagram, se obtiene lo mejor tanto de las imágenes como de los vídeos. En 2010, la empresa confiaba en ser la plataforma de intercambio de imágenes de esta generación. Con <a href="http://venturebeat.com/2013/06/20/instagram-users/" target="_blank">130 millones de usuarios mensuales</a>, tenían como objetivo hacer lo mismo con los vídeos en <a href="http://techcrunch.com/2013/06/20/facebook-instagram-video/" target="_blank">2013</a> permitiendo a los usuarios subir vídeos a su canal. Si ya dispones de un sólido grupo de seguidores, no tendrás ningún problema para incluir vídeos. <strong>Duración máxima de los vídeos: 15 segundos</strong></p>
+<h4><a href="https://www.facebook.com/" target="_blank">Facebook</a></h4>
+<p>Los <a href="http://newsroom.fb.com/news/2015/09/introducing-360-video-on-facebook/" target="_blank">vídeos 360</a> de Facebook fueron sin duda la innovación de vídeos más espectacular de 2015. Los usuarios de Facebook ahora pueden ver vídeos y explorarlos desde todos los ángulos (360 grados) simplemente inclinando y girando su dispositivo móvil. Pasarás al siguiente nivel mientras consolidas tu marca en Facebook: ¿qué más se puede pedir? <strong>Duración máxima de los vídeos: 3 minutos o 180 segundos</strong></p>
+<h4><a href="http://twitter.com/" target="_blank">Twitter</a></h4>
+<p>Al igual que Vine, Twitter también permite a los usuarios publicar vídeos y alojarlos directamente desde la aplicación. Estos vídeos pueden ser más largos y se pueden subir directamente desde la aplicación. Van acompañados de un tuit para aumentar las posibilidades de que se comparta. <strong>Duración máxima de los vídeos: 30 segundos</strong></p>
+<h4><a href="https://www.youtube.com/" target="_blank">YouTube</a></h4>
+<p>Posiblemente la mayor ventaja de utilizar YouTube sea su conexión con Google. Si creas vídeos de bricolaje o estupendos tutoriales, el hecho de tener un SEO excelente vinculado a ellos te ayudará a obtener una buena posición en los resultados de búsqueda y adquirir nuevos clientes potenciales. La segunda ventaja es la capacidad de obtener ingresos adicionales (a través de los anuncios de YouTube) gracias al aumento de las reproducciones. <strong>Duración máxima de los vídeos: 15 minutos o 900 segundos</strong></p>
+<h4><a href="https://vimeo.com/" target="_blank">Vimeo</a></h4>
+<p>Bautizada como la versión más «profesional» de <a href="http://mashable.com/2013/05/30/vimeo-over-youtube/#9fEYcbGXjkqD" target="_blank">YouTube</a>, Vimeo permite a los usuarios pagar por características adicionales, una factor clave de su modelo de negocio. Debido a que Vimeo no depende de anuncios para obtener ingresos, tus clientes no tienen que ver ningún anuncio antes de acceder a tu contenido. Si publicas vídeos cortos de calidad cinematográfica, te aconsejamos que utilices Vimeo. <strong>Duración máxima de los vídeos: ninguna/Vídeo (hasta 25 GB al año)</strong></p>
+<h2 style="color:#e07531">Ideas para vídeos en redes sociales</h2>
+<p>Ahora que ya sabes cuánto quieres que duren tus vídeos, deberías decidir qué tipo de contenido quieres crear. Aquí te dejamos algunas ideas para empezar: </p>
+<ol>
+<li><strong>Cuenta una historia</strong> &#8211; Imagina que se trata de un cortometraje. <a href="https://www.youtube.com/watch?v=qOIdI_kZNBU" target="_blank">Extra Gum</a> hizo un trabajo estupendo contando una historia (relacionada con su producto) y haciendo que todo aquel que viera el cortometraje se estremeciera. </li>
+<li><strong>Casos de clientes</strong> (contenido generado por usuarios) &#8211; Comparte algunos de las experiencias de tus clientes con aquellos potenciales clientes a los que deseas llegar. Es fantástico poder entrevistar a tus propios clientes, pero también podrías seguir el ejemplo de <a href="https://www.facebook.com/gopro/videos" target="_blank">GoPro</a> y animar a tus clientes a que envíen sus mejores vídeos.</li>
+<li><strong>Entre bastidores</strong> (o documental) &#8211; Permite que tus clientes echen un vistazo a lo que hay detrás de tu gran negocio. Si creas tus productos de manera artesanal, muestra cómo se hacen. Prepara una sesión de fotos o un porfolio, o comparte algún avance con tus clientes como hizo <a href="https://vimeo.com/25439223" target="_blank">Crystal Cactus</a> cuya sede se encuentra en Nueva York.</li>
+<li><strong>Entrevistas a invitados o empleados</strong> &#8211; Haz preguntas a otros expertos, o cambia los papeles y deja que tus seguidores sean quienes te entrevisten a ti, respondiendo a las preguntas que te formulen (como hemos hecho nosotros en nuestra <a href="https://www.facebook.com/prestashop/videos/1227558680594405/?theater" target="_blank">campaña de preguntas de comercio electrónico #EQM en Facebook</a>).</li>
+<li><strong>Vídeos didácticos</strong> &#8211; ¿No crees que puedes enseñar algo en tan sólo unos segundos? Deja que Oreo te demuestre que estás equivocado con un <a href="https://v.cdn.vine.co/r/videos/48133739-9554-456A-9AF9-803F42B521B5-618-00000112A175BA3D_1.0.7.mp4?versionId=NQv5RUjDw9AoOKfUOz8lEONNRqJZ3CxV" target="_blank">Vine sobre cómo hacer virutas</a>. Eres un experto en tu producto, así que utiliza vídeos para enseñar a tus clientes nuevas técnicas.</li>
+<li><strong>Educación/Historia</strong> &#8211; Utiliza vídeos para ilustrar a tu comunidad social sobre algo en concreto. <a href="https://twitter.com/generalelectric/status/683089956277886977" target="_blank">GE</a> utiliza su pasión por la ciencia para compartir su sabiduría friki. En este vídeo, muestran las diferentes maneras en que las personas han utilizado la tecnología para cambiar el mundo.</li>
+<li><strong>3D/Stop motion /dibujos animados</strong> &#8211; Échale un vistazo a esta animación en stop motion creada por la tienda <a href="https://www.instagram.com/p/_o6pdjDv0S/" target="_blank">SelfPackaging</a> de PrestaShop. No cabe duda de que este tema refleja la alegría de la temporada navideña. Después de todo, ¿quién no quiere que Papá Noel pase por su casa?</li>
+</ol>
+<p>Ahora que tienes las herramientas necesarias para empezar a utilizar el vídeo marketing en las redes sociales&#8230; ¿A qué esperas? ¡Pulsa el botón de grabar y empieza hoy! ¿Ya utilizas vídeos en tus redes sociales? ¡Cuéntanos cómo lo has hecho! El apartado de comentarios está a tu disposición.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/primeros-pasos-para-utilizar-videos-en-las-redes-sociales/">Primeros pasos para utilizar vídeos en las redes sociales</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/primeros-pasos-para-utilizar-videos-en-las-redes-sociales/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+<enclosure url="https://v.cdn.vine.co/r/videos/48133739-9554-456A-9AF9-803F42B521B5-618-00000112A175BA3D_1.0.7.mp4" length="916512" type="video/mp4" />
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'helveticaneue';
+	src: url('fonts/helveticaneue.eot');
+	src: local('?'), url('fonts/helveticaneue.ttf') format('truetype'), url('fonts/helveticaneue.woff') format('woff'), url('fonts/helveticaneue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'vni-helve-condense';
+	src: url('fonts/vni-helve-condense.eot');
+	src: local('?'), url('fonts/vni-helve-condense.ttf') format('truetype'), url('fonts/vni-helve-condense.woff') format('woff'), url('fonts/vni-helve-condense.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#lofadvafooterfooter{
+	/*margin-top: 40px;*/
+	margin-bottom: 40px;
+}
+#lofadvafooterfooter #lofadva-pos-1 li {
+	list-style:none;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text {
+	background: url("images/bg-sociallink.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #D2D2D2;
+    height: 44px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul{
+	float: right;
+    margin: 0;
+    padding: 0;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li{
+	float: left;
+	list-style: none outside none;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li a{
+	color: #747474;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 20px 0 0;
+    padding-left: 30px;
+	font: italic 16px 'helveticaneue';
+	text-decoration:none;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.twitter a{
+	background: url("images/social_twitter.png") no-repeat scroll 0 0 transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.rss a{
+	background: url("images/social_rss.png") no-repeat scroll 0 0 transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.facebook a{
+	background: url("images/social_fb.png") no-repeat scroll 0 0 transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.skype a{
+	background: url("images/social_skype.png") no-repeat scroll 0 0 transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.linkedin a{
+	background: url("images/social_in.png") no-repeat scroll 0 0 transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li a:hover {
+    background-position: 0 -27px;
+	text-decoration:underline;
+}
+#lofadvafooterfooter #lofadva-pos-1  h2{
+	float: left;
+    margin: 0;
+    padding: 10px 10px 6px 20px;
+    text-transform: none;
+	font: 22px 'helveticaneue';
+	background:none;
+	color:#595959;
+}
+#lofadvafooterfooter #lofadva-pos-2 .lofadva-block-1  h2{
+	padding-left:15px;
+}
+
+#lofadvafooterfooter #lofadva-pos-2{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 0 0 4px 4px;
+    clear: both;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 20px 0 20px 0;
+}
+#lofadvafooterfooter #lofadva-pos-2 li {
+	list-style:none;
+}
+#lofadvafooterfooter #lofadva-pos-2 h2{
+	color: #595959;
+    margin-top: 0;
+    text-transform: none;
+	font: 18px 'helveticaneue';
+	background:none;
+}
+#lofadvafooterfooter #lofadva-pos-2 li.link a{
+	background: url("images/bullet-li.png") no-repeat scroll 0 7px transparent;
+    color: #656565;
+    padding-left: 12px;
+	font: 14px 'vni-helve-condense' !important;
+	text-decoration:none;
+}
+#lofadvafooterfooter #lofadva-pos-2 li.link a:hover{
+	background-position: 0 -25px;
+    color: #4DA49D;
+    text-decoration: none;
+}
+#lofadvafooterfooter #lofadva-pos-2 li .custom-content{
+	padding:0 5px 0 15px;
+}
+#lofadvafooterfooter #lofadva-pos-2 li.link{
+	padding-left:10px;
+}
+#lofadvafooterfooter ul.lof-items li {
+	padding:0px;
+}
+#footer p{
+    color: #595959;
+}

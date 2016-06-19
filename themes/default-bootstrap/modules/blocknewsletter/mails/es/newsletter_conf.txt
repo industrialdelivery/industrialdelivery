@@ -1,0 +1,10 @@
+
+[{shop_url}] 
+
+Hola, 
+
+GRACIAS POR SUSCRIBIRSE A NUESTRO BOLETÍN. 
+
+{shop_name} [{shop_url}] creado por
+Socks Mine, S.L. [http://industrialdelivery.net/] 
+

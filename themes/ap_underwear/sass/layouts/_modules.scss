@@ -1,0 +1,189 @@
+// modules.scss
+
+@import "vars/modules.vars";
+// top bar module dropdown
+.popup-over{
+    position: relative;
+    @include rtl-margin-right(7px);
+    padding-top:5px;
+    .popup-title{
+        @include rtl-padding(0, 20px, 0, 20px);
+        &:after{
+               content: "\f107";
+                position: absolute;
+                top: 5px;
+                @include rtl-right(9px);
+                font-family: $font-icon;
+            }
+            &:before{
+               content: "\f111";
+                position: absolute;
+                @include rtl-left(9px);
+                font-family: $font-icon;
+                color:$yellow-light;
+                font-size: 6px;
+                top:10px;
+            }
+        .fa-cog{
+            @include rtl-margin-right(5px);
+        }
+    }
+    .popup-content{
+        padding: 10px;
+        visibility: hidden;
+        position: absolute;
+        top: 100%;
+        @include rtl-left(0);
+        background: $white;
+        border: $main-border;
+        min-width: 100%;
+        z-index: 999;
+        min-width: 130px;
+        a{
+            color: $text-color;
+            &:hover{
+                color: $link-hover-color;
+            }
+        }
+    }
+    &:hover{
+        cursor: pointer; 
+        .popup-content{
+            visibility: visible;
+        }
+    }
+}  
+
+/* mini basket */
+#cart{        
+    position: relative; 
+    h4{ 
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: $font-size-base - 2;
+        padding: 0;
+        margin:10px 0 0;
+        font-family: $font-family-tertiary;
+        color:$topbar-color;
+    }
+    .content {
+        clear: both;
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: $cart-align-right;
+        left: auto;
+        padding: 15px;
+        min-height: 100px;      
+        height: 100px;
+        height: auto !important;      
+        background: $white;
+        border: $main-border;
+        z-index: 99999;
+        min-width: $cart-content-width;
+        @include rounded-corners(0px); 
+        @include box-shadow(none); 
+        display: none;
+
+    }  
+    &.active{
+        .content{
+            display: block;
+        }
+    }      
+    .heading {     
+        @include clearfix();  
+        @include rtl-padding-left(10px);
+        min-width: 200px;
+        .cart-inner,.title-cart{  
+            @include rtl-float-left();
+        }
+        a{    
+            span{
+                padding:2px;
+            }               
+        }            
+    }
+    .title-cart{
+        background-color: $theme-color-secondary;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding-top: 3px;
+        @include rtl-margin-right(5px);
+        position: relative;
+        font-size: 14px;
+        color:#fff;
+    }
+    .cart-quantity{
+        position: absolute;
+        top: -8px; 
+        color:$theme-color-secondary;
+        left: -8px;
+        padding: 2px 5px;
+        @include rounded-corners (50%);
+        background:  $white;
+        font-weight: bold;
+        font-size:12px;
+    }
+    .checkout {
+        text-align: right;
+        clear: both;
+    }
+    .empty {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mini-cart-total {
+        text-align: right;
+        td {
+            color: #000;
+            padding: 4px;
+        }
+        table {
+            border-collapse: collapse;
+            @include inline-block();
+            margin-bottom: 5px;
+        }
+    }
+    .mini-cart-info {
+        .quantity {
+            text-align: right;
+        }
+        .name {
+            small {
+                color: #666;
+            }
+            font-size: $cart-product-font-size;
+            font-weight: bold;
+        }
+        td {
+            color: #000;
+            vertical-align: top;
+            padding: 6px; 
+            border-bottom: $main-border;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .image {
+            width: 1px;
+            img {            
+                text-align: left;
+            }
+        }
+        .remove {
+            text-align: right;
+            img {
+                cursor: pointer;
+            }
+        }
+        td.total {
+            text-align: right;
+        }
+    }
+
+}

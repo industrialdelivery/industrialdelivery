@@ -1,0 +1,366 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+.carousel {
+  position: relative;
+}
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+.carousel-inner > .active {
+  left: 0;
+}
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel-inner > .next {
+  left: 100%;
+}
+.carousel-inner > .prev {
+  left: -100%;
+}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+.carousel-inner > .active.left {
+  left: -100%;
+}
+.carousel-inner > .active.right {
+  left: 100%;
+}
+.carousel-inner:hover{ overflow:inherit}
+#index .carousel-inner:hover{overflow: hidden;}
+.carousel-control{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right{
+  left: auto;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+.carousel-control:hover, .carousel-control:focus {
+  outline: none;
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 50%;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+.carousel-control .icon-prev:before {
+  content: '\2039';
+}
+.carousel-control .icon-next:before {
+  content: '\203a';
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+}
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+}
+.carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.carousel-caption .btn {
+  text-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
+.carousel-control {
+	z-index: 99;
+  top: -50px !important;
+  right: 20px!important;
+  position: absolute;
+  background: none!important;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  color: #333;
+  left: inherit;
+}
+.carousel-control.left {
+  right: 35px!important;
+}
+.custom_slide a:first-child img {
+  margin-bottom: 20px;
+}
+/* Eff */
+.view-fifth {
+  position: relative;
+  overflow: hidden;
+}
+.view-fifth .mask {
+  position: absolute;
+  background-color: #333333;
+  top: 0;
+  height: 100%;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.view-fifth .mask > div {
+  padding: 0 10px;
+}
+.view a.info {
+  background: #000;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.view a.info:hover {
+  background-color: #57AFDA;
+}
+.view-fifth img {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.view-fifth:hover img {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.view-fifth:hover .mask {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -o-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.block_content .contact-us li {
+  line-height: 35px;
+}
+.block_content .contact-us li em {
+  background: #4A4A4A;
+  border-radius: 2px;
+  color: #D4D4D4;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 10px;
+  text-align: center;
+  width: 28px;
+  padding: 3px 0 3px 4px;
+}
+.rtl .block_content .contact-us li em {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+.rtl .block_content .contact-us li em {
+  padding: 3px 4px 3px 0;
+}
+.block_content .contact-us li:hover em {
+  background-color: #434a54;
+  color: white;
+}
+.block .nav-pills > li.active > a {
+  position: relative;
+}
+.block .nav-pills > li.active > a:before {
+  content: "\f0d7";
+  position: absolute;
+  bottom: -7px;
+  height: 10px;
+  line-height: 10px;
+  right: 50%;
+  margin-right: -4px;
+  font-family: "FontAwesome";
+  color: #428bca;
+  font-size: 19px;
+  z-index: 9;
+}
+.block .panel-group {
+  margin-bottom: 0;
+}
+.effect {
+  margin-bottom: 10px;
+}
+.widget-tabs li {
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+}
+.widget-tabs li.active {
+  border: 1px solid #aaa;
+}
+.widget-tabs li.active a {
+  color: #333;
+}
+.widget-tabs li a {
+  color: #999;
+}
+.widget-images .image-item img {
+  border: 1px solid #ddd;
+}
+
+/*** BACKGROUND STYLE VIDEO ***/
+.bg_style_row{
+	position: relative;
+	float: left;
+}
+.bg_style_row .background_style_video_content{
+	height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg_style_row .wrapper_background_style_video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.bg_style_row .player .controls,
+.bg_style_row iframe .html5-video-controls{
+	display: none;
+}
+.bg_style_row.full-bg-screen{
+  padding: 20px 1000px;
+  margin-left: -1000px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: content-box;
+  background: #000;
+}

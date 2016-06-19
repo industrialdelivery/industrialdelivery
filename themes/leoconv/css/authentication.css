@@ -1,0 +1,55 @@
+#account-creation_form fieldset, fieldset.account_creation {
+	padding:0 0 15px 0; 
+}
+#account-creation_form h3 { 
+}
+#center_column #account-creation_form p {/*margin:0; padding:0 0 10px 0*/}
+#account-creation_form div.required {margin-bottom: 10px;} 
+#account-creation_form p.radio span,
+#account-creation_form p.text label,
+#account-creation_form p.password label,
+#account-creation_form p.select label,
+#account-creation_form p.select span,
+#account-creation_form p.textarea label { 
+}
+#account-creation_form p.radio label {
+	float:none;
+	padding-right:10px;
+	width:auto;  
+}
+#account-creation_form p.radio input {
+	position: relative;
+	bottom: -3px;
+}
+#account-creation_form p.checkbox label {
+	float:none;
+	width:auto;
+	 
+}
+#account-creation_form p.text input,
+#account-creation_form p.password input,
+#account-creation_form p.select input { 
+	 
+}
+#account-creation_form span.inline-infos{display:inline-block;}
+#account-creation_form p.checkbox{margin-top: 10px;}
+#account-creation_form p.checkbox input { 
+}
+#account-creation_form p.select select {
+	margin-right:10px; 
+	 
+	 width: 80px;
+}
+#account-creation_form p.textarea textarea {
+	height:80px;
+	width:370px;  
+}
+#account-creation_form span.form_info, #account-creation_form p.inline-infos { 
+	 
+}
+#account-creation_form .id_state, #account-creation_form .dni, #account-creation_form .postcode {
+	display: none;
+}
+#center_column #account-creation_form p.cart_navigation {
+	margin:20px 0;
+}

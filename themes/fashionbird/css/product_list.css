@@ -1,0 +1,37 @@
+/* ————— product-list.tpl ————— */
+.des-mob,.product_desc.mob,.product_desc.mob2{ display:none;}
+#product_list {position:relative;}
+#product_list .product_flags {margin:-4px 0 8px 0;}
+#product_list .product_flags span {display:inline-block;float:left;margin:0 20px 0px 0;}
+#product_list .product_flags span.new { color:#000;}
+#product_list .product_flags span.online_only { margin-right:0;}
+#product_list .right_block span.on_sale,#product_list .right_block span.discount {display:block;margin:-1px 0 20px 0; color:#ff604a;}
+.list {padding:0px 0px 0 0; margin:0;}
+.list li.last_item{ padding-bottom:0;margin-bottom:0px;}
+.list li.first_item{ border:none!important;}
+.list li {padding:20px 0 0px 0;margin:0px 0 20px 0;border-bottom:0;border-top: 1px dotted #B2B2B2; width:100%; }
+.list li a.product_img_link {width:150px;float:left;}
+.list li .center_block {width:515px;float:left;padding:0px 0 0 20px;}
+.list li .center_block h3 {margin:0 0 10px 0}
+.list li .center_block .product_desc {margin:0;}
+.list li .right_block {width:150px;float:right;padding:0px 0 0 20px;height:230px; border-left: 1px dotted #B2B2B2; }
+.list li .right_block span.price {display:block;padding:0px 0 0 0;font-size:21px; margin:0px 0 0 0;}
+.list li .right_block .compare {margin:0;padding:17px 0 18px 0;}
+.list li .right_block .compare input{ margin:4px 10px 0 0}
+.list li .right_block .exclusive {margin:0px 0px 20px 0;}
+.list li .right_block span.exclusive{ margin-right:20px;}
+.list li:first-child{ border:none; padding-top:20px;}
+
+/* grid view */
+.grid {padding:0px 0 0px 0; margin:0;}
+.grid li {padding:30px 0 0px 0; margin-top:20px;border-top: 1px dotted #B2B2B2; border-bottom:0;}
+.grid li.product_list_1{ margin-left:0;}
+.grid li.num-1,.grid li.num-2,.grid li.num-3{ border:none; margin-top:0;}
+.grid li a.product_img_link {display:block;text-align:center;}
+.grid li .center_block .product_desc, #product_list.grid .right_block span.on_sale,#product_list.grid  .right_block span.discount,#product_list.grid .product_flags {display:none;}
+.grid li h3 { margin:10px 0 10px 0;}
+.grid li span.price {display:block;padding:0px 0 12px 0;font-size:21px;margin:0px 0 0 0;}
+.grid li .compare {margin:0;padding:5px 0 16px 0;}
+.grid li .compare input{ margin-right:7px;}
+.grid li .button{ margin-bottom:10px;}
+.grid li .exclusive{margin:0px 16px 10px 0;}

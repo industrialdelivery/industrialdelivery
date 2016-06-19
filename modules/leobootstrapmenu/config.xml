@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>leobootstrapmenu</name>
+	<displayName><![CDATA[Leo Bootstrap Megamenu]]></displayName>
+	<version><![CDATA[3.0.0]]></version>
+	<description><![CDATA[Leo Bootstrap Megamenu Support Leo Framework Version 3.0.0]]></description>
+	<author><![CDATA[LeoTheme]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,54 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$theme-color-secondary: 	#451f30;
+$theme-color-default: 		#f273ac;
+
+$link-hover-color: 			$theme-color-default;
+$yellow-light:				#69314a;
+$silver:					#7F3A59;
+$grey:						#eaeaea;
+$purple:					#7B5F6B;
+$body-bg:					#69314A;
+$text-color:				#bb90a3;
+
+
+
+$topbar-outside-bg:			#451f30;
+$topbar-bg: 				$topbar-outside-bg !default;
+$topbar-color:				#bb90a3;
+$topbar-color-hover: 		$link-hover-color;
+
+
+$headermain-outside-bg :			#69314A !default; 
+$headermain-bg: 			 		$headermain-outside-bg !default;
+$headermain-color:					$text-color !default;
+
+$megamenu-link-color:			#fff;
+$megamenu-link-hover-color 	:$link-hover-color;
+
+$nav-tabs-active-link-hover-color: #fff;
+
+$footer-outside-bg :				#451E30;
+$footer-bg: 						$footer-outside-bg !default;
+$footer-color: 						$text-color !default;
+
+$product-name-hover-color: 			$link-hover-color;
+$product-price-color: 				$theme-color-default;
+
+$breadcrumb-active-color: 			#fff;
+$breadcrumb-bg			:			$theme-color-default	;
+
+$button-addtocart-bg            : $theme-color-default;
+$button-addtocart-border:		$theme-color-default;
+$button-addtocart-color-hover	:#fff;
+$button-addtocart-bg-hover		:$theme-color-secondary;
+$button-addtocart-border-hover	:$theme-color-secondary;
+
+
+@import "../_skin";
+
+
+

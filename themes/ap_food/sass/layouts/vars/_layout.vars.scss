@@ -1,0 +1,22 @@
+
+/*  
+ * LAYOUT VARIABLES 
+ */
+
+// Topbar 
+$topbar-outside-bg: 				#333 !default;
+$topbar-bg: 						$topbar-outside-bg !default;
+$topbar-color: 						#ccc !default;
+$topbar-font-size: 					13px;
+$topbar-height:                     30px !default;
+$topbar-padding:					10px 0 !default;
+
+// header main
+$headermain-outside-bg :			#eae8d2 !default; 
+$headermain-bg: 			 		$headermain-outside-bg !default;
+$headermain-color:					$text-color !default;
+
+// Footer
+$footer-outside-bg :				#0f844f !default;
+$footer-bg: 						$footer-outside-bg !default;
+$footer-color: 						#fff !default;

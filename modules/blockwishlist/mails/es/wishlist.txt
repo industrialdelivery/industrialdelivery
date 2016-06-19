@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+Hola, 
+
+{firstname} {lastname} indicó que puede interesarle ver su wishlist:
+{wishlist}
+
+{wishlist} [{message}] 		 
+
+{shop_name} [{shop_url}] creado por
+PrestaShop(tm) [http://www.prestashop.com/] 
+

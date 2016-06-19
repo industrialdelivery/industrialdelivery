@@ -1,0 +1,57 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/*******************************************************************/
+.deal-clock {
+  min-height: 40px;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.deal-clock > li {
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
+  color: white;
+  border-right: 1px solid black;
+  position: relative;
+  width: 25%;
+  padding: 4px 0 3px;
+  line-height: 16px;
+}
+.rtl .deal-clock > li {
+  border-left: 1px solid black;
+  border-right: inherit;
+}
+.deal-clock > li:last-child {
+  border-right: none;
+}
+.rtl .deal-clock > li:last-child {
+  border-left: none;
+  border-right: inherit;
+}
+.deal-clock > li span {
+  font-size: 12px;
+  color: #999;
+}
+.deal-clock .lof-labelexpired {
+  color: white;
+  line-height: 40px;
+}

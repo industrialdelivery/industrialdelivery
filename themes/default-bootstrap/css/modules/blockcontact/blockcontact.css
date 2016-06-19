@@ -1,0 +1,80 @@
+.shop-phone {
+  float: left;
+  padding: 5px 0 10px;
+  line-height: 18px; 
+}
+@media (max-width: 767px) {
+  .shop-phone {
+      display: none; } 
+}
+.shop-phone i {
+    font-size: 21px;
+    line-height: 21px;
+    /* Pere 29/11/2014: icono telefono
+    color: white;
+    */
+    color: #2459b5;
+    padding-right: 7px; 
+}
+.shop-phone strong {
+    /* Pere 29/11/2014: numero telefono */
+    color: black; 
+}
+
+#header .nav .container .row #contact-link {
+  float: right;
+  /* Pere 29/11/2014: linea vertical separador
+  border-left: 1px solid #515151; }
+  */
+  border-left: 1px solid #777777; 
+}
+@media (max-width: 479px) {
+    #contact-link {
+      width: 25%;
+      text-align: center; } 
+}
+#header .nav .container .row #contact-link a {
+    display: block;
+    /* Pere 29/11/2014: Contacte con nosotros */
+    /* no va */
+    color: #777777;
+    /*Pere 
+    font-weight: bold;
+    */
+    font-weight: normal;
+    padding: 8px 10px 11px 10px;
+    /* Pere 29/11/2014
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    */
+    cursor: pointer;
+    line-height: 18px; 
+}
+@media (max-width: 479px) {
+      #contact-link a {
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px; } 
+}
+#header .nav .container .row #contact-link a:hover, #contact-link a.active {
+    color: white;
+}
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px; } 
+}
+#contact_block .label {
+  display: none; }
+#contact_block .block_content {
+  color: #888888; }
+#contact_block p {
+  margin-bottom: 4px; }
+#contact_block p.tel {
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin-bottom: 6px; 
+}
+#contact_block p.tel i {
+    font-size: 25px;
+    vertical-align: -2px;
+    padding-right: 10px; 
+}

@@ -1,0 +1,75 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.ac_results {
+  background: white;
+  border: 1px solid #d2d0bb;
+  width: 271px;
+  margin-top: -1px;
+}
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+.ac_results li.ac_odd {
+  background: white;
+}
+
+#search_block_top {
+  position: relative;
+}
+#search_block_top .fa-search:hover {
+  cursor: pointer;
+}
+#search_block_top form#searchbox {
+  width: 100%;
+  z-index: 999;
+}
+#search_block_top form#searchbox .block_content {
+  padding: 10px;
+  background: #c8c49f;
+  margin: 0;
+}
+#search_block_top form#searchbox input.search_query {
+  float: left;
+  background: #c8c49f;
+  border: none;
+  height: 30px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #000 !important;
+  max-width: 90%;
+}
+.rtl #search_block_top form#searchbox input.search_query {
+  float: right;
+}
+#search_block_top form#searchbox .btn {
+  float: left;
+  background: #c8c49f;
+  color: black;
+  padding: 7px 10px;
+  height: 30px;
+  border-right: 1px solid #a4a17e;
+}
+.rtl #search_block_top form#searchbox .btn {
+  float: right;
+}
+.rtl #search_block_top form#searchbox .btn {
+  border-left: 1px solid #a4a17e;
+  border-right: inherit;
+}

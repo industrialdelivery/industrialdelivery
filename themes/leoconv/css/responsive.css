@@ -1,0 +1,286 @@
+@media (min-width: 768px) and (max-width: 979px) {
+	/*MENU*/
+	.navbar { 
+	}
+	.navbar .btn-navbar {
+		float: left;
+	}
+	.navbar .nav > li {
+		float: none;
+	}
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+		color: #5F5F5F;
+		background-color: transparent;
+	}
+	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+		color: #fff;
+	}
+	.content_sortPagiBar #productsSortForm p label {display: none;}
+	
+	/*BLOG SEARCH*/
+	#search_block_top {
+		top: 160px;
+	}
+	 
+	ul.step li {width: 100px;}
+	table#cart_summary th {padding: 14px 8px;} 
+	.cart_quantity_button a {margin-left: 10px;}
+	
+	/*FOTTER*/
+	.footer-wrapper {
+		height: 146px;
+	}
+	#lofadvafooterfooter #lofadva-pos-1 {
+		margin-top: -147px;
+	}
+	#lofadvafooterfooter #lofadva-pos-1 .lof-text ul {
+		float: none;
+	}
+}
+@media (max-width: 767px) {
+	.row-fluid #order_step > li {
+		width:100%
+	}
+	/*MENU*/
+	.navbar { 
+	}
+	.navbar .btn-navbar {
+		float: left;
+	}
+	.navbar .nav > li {
+		float: none;
+	}
+	.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
+		color: #5F5F5F;
+		background-color: transparent;
+	}
+	.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+		color: #fff;
+	}
+	#leo-customhtml-home .custom-bottom h4 {border: none;}
+	#leo-customhtml-home .custom-bottom span {display: block;}
+	
+	/*BLOG SEARCH*/
+	#search_block_top {
+		top: 152px;
+	}
+	.product-container {border: 1px solid #ddd; margin-bottom: 10px;}
+	#product_list .product_block:before,
+	.product_block:after {background: none;}
+	
+	/*CONTENT HOME*/
+	#leo-customhtml1-home .block_content1 .advertising1 a {
+		margin-bottom: 10px;
+	}
+	.content_sortPagiBar #productsSortForm p label {display: none;}
+	.cart_quantity_button a {margin-left: 15px;}
+	
+	/*FOTTER*/
+	.footer-wrapper {
+		height: 146px;
+	}
+	#lofadvafooterfooter #lofadva-pos-1 {
+		margin-top: -147px;
+	}
+	#lofadvafooterfooter #lofadva-pos-1 .lof-text ul {
+		float: none;
+	}	
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+	
+}
+
+@media (max-width: 600px) {
+	#search_block_top {
+	    top: 160px;
+	}
+	.carousel.slide.leobttslider {
+		display: none;
+	}
+	#header_right #languages_block_top {
+		float: right;
+		min-width: 120px;
+	}
+	.webkit #header_right #languages_block_top {
+		width: 111px;
+	}
+	.leo-button {
+		margin: 7px 0 0 10px;
+	}
+	#header_right{position: relative;}
+	#form-permanentlinks { 
+		background: none repeat scroll 0 0 #FFFFFF;
+	    border-radius: 3px 3px 3px 3px;
+	    box-shadow: 0 0 5px;
+	    padding: 0 10px;
+	    position: absolute;
+	    top: 30px;
+	    z-index: 9999;
+	}
+	.leo-mobile, .leo-mobile:hover {
+		color: #5F5F5F;
+	}
+	
+	/*FOTTER*/
+	#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2.shipping {
+		width: 100%;
+	}
+	#lofadva-pos-2 .lofadva-block-1{
+		width: 50% !important;
+	}
+	#lofadva-pos-2 .lofadva-block-2{
+		width: 50% !important;
+	}
+	#lofadva-pos-2 .lofadva-block-3 {
+		width: 50% !important;
+	}
+	#lofadva-pos-2 .lofadva-block-4{
+		width: 50% !important;
+	}
+	#newsletter_block_left {
+		margin-top: 10px;
+	}
+	/*table*/
+	td{
+		border-bottom: 1px solid #E9E9E9 !important;
+    	border-left: 0 none !important;
+	    border-right: 0 none !important;
+	    display: block;
+	    overflow: hidden;
+	    padding: 5px 5% !important;
+	    width: 90% !important;
+	    text-align: center !important;
+	}
+	thead{display: none;}
+
+	table .radio input[type="radio"], 
+	table .checkbox input[type="checkbox"]{float: none;}
+
+	#vouchers td.delete{float: right;}
+	#vouchers td.price{position: absolute;right: 35px;}
+	#vouchers td{
+		width: inherit!important;
+		display: inline!important;
+		border: none!important;
+		padding: inherit!important;
+		text-align: inherit!important;
+	}
+	.cart_quantity .cart_quantity_input{width: auto;float: none;}
+	.cart_quantity .cart_quantity_button{float: none;}
+
+	#create-account_form label, #login_form label, #compare_shipping label{width: 99%;text-align: left;}
+	#carriers_list label{text-align: center;}
+
+	#order .delivery_option .order-carrier-delivery > table.resume, #order-opc .delivery_option .order-carrier-delivery > table.resume{width: 100%;}
+	#order .delivery_option_radio, #order-opc .delivery_option_radio{margin-left: 49%;}
+
+	.form-horizontal-mini .controls{margin-left: 0;}
+}
+
+@media (min-width: 481px) and (max-width: 590px) {
+	 #search_block_top {
+		top: 151px;
+	}	
+}
+
+@media (max-width: 480px) {
+	/*HEADER*/
+	.logo {
+		float: left;
+		margin-top: 57px;
+		padding: 5px 0 15px 5px;
+	}
+	#header_right #header_user {
+		left: 5px;
+		right: inherit;
+		top: 62px;
+	}
+	#search_block_top {
+		top: 245px;
+	}	
+	#leo-header #cart_block {
+		left: 5px;
+		top: 143px;
+	}
+	#leo-header #cart_block:before {
+		left: 20%;
+	}
+	.select.controls, .radio.required.controls, #account-creation_form p.checkbox input {margin-left: 10px;}
+	table.std th, table.table_block th, table.std td, table.table_block td {display: block;}
+	#order-list th {text-align: center;} 
+	
+	/*FOTTER*/
+	#lofadva-pos-2 .lofadva-block-3 {
+		width: 100% !important;
+	}
+	#lofadva-pos-2 .lofadva-block-4{
+		width: 100% !important;
+	}
+	#lofadva-pos-3 .lofadva-block-1 {
+		width: 100% !important;
+	}
+	#lofadva-pos-3 .lofadva-block-2 {
+		width: 100% !important;
+	}
+	.idTabs a{padding: 15px 10px}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	.leobttslidermini .carousel-control.right {
+		right: 146px;
+	}
+	#view_scroll_right {
+		margin-left: 75%;
+	}
+	#pb-right-column #image-block #view_full_size .span_link {
+		width: 50%;
+	}
+	input.exclusive_large,
+	input.exclusive{
+		height: 37px;
+	}
+}
+
+@media (max-width: 320px) {
+	#search_block_top {
+		top: 246px;
+	}	
+	h4.title-style.title_block {
+		background: none;
+	}
+	#relatedproducts h4.title-style.title_block span {border: none;}
+	h4.title-style.title_block span:after {
+		content: "";
+	} 
+	#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 span {
+		margin-left: 0;
+	}
+	#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2 {font-size: 17px;}
+	input#addressInput {width: 240px;}
+	#send_friend_form .form_container .text input,
+	#send_friend_form .form_container .text label{ width: 140px;}
+	#module-blockwishlist-mywishlist #mywishlist p.text input,
+	#add_address p.text input, #add_address p.password input, #add_address p.select input,
+	#add_address p.textarea textarea,
+	#add_address p.select select{width: 240px;} 
+	table.std th, table.table_block th,
+	table.std td, table.table_block td {display: block; border-right: none;}
+	#address p.inline-infos {margin: auto !important;}
+	.SE_SubmitRefreshCard input, .cart_navigation .exclusive, .cart_navigation .exclusive_large {margin-bottom: 10px;}
+
+	.cart_quantity span,
+	.cart_quantity .cart_quantity_button,
+	.cart_quantity .cart_quantity_input{float: none!important;}
+	/*fix details*/
+	#create-account_form label, #login_form label, #compare_shipping label{width: 99%;text-align: left;}
+	#carriers_list label{text-align: center;}
+	
+	.cart_navigation .exclusive, .cart_navigation .exclusive_large {
+		float: none;
+	    margin-bottom: 3px;
+	}
+}
+@media (min-width: 980px) {
+
+}

@@ -1,0 +1,92 @@
+#header .nav .container .row #languages-block-top {
+  float: right;
+  border-left: 1px solid #777777;
+  position: relative; }
+  @media (max-width: 479px) {
+    #languages-block-top {
+      width: 25%; } 
+}
+  #languages-block-top span.firstWord {
+    display: none; }
+#header .nav .container .row #languages-block-top div.current {
+    /* Pere 29/11/2014: Espa–ol 
+    font-weight: bold;
+    */
+    padding: 8px 10px 10px 10px;
+    line-height: 18px;
+    /* Pere 13/10/2014: Espa–ol */
+    color: #777777;
+    /* text-shadow: 1px 1px rgba(0, 0, 0, 0.2); */
+    cursor: pointer; 
+}
+#header .nav .container .row #languages-block-top div.current:hover {
+    color: white;
+}
+@media (max-width: 479px) {
+      #languages-block-top div.current {
+        text-align: center;
+        padding: 9px 5px 10px;
+        font-size: 11px;
+      } 
+}
+#languages-block-top div.current strong {
+      color: #777777;
+}
+/*#languages-block-top div.current:after {*/
+#header .nav .container .row #languages-block-top div.current:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      font-size: 18px;
+      color: #777777;
+      line-height: 18px;
+      vertical-align: -2px;
+      padding-left: 12px; 
+}
+@media (max-width: 479px) {
+        #languages-block-top div.current:after {
+          padding-left: 2px;
+          font-size: 13px;
+          line-height: 13px;
+          vertical-align: 0; } 
+}
+@media (max-width: 479px) {
+      #languages-block-top div.current .cur-label {
+        display: none; } 
+}
+#languages-block-top ul {
+    display: none;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 157px;
+    /* Pere: fons sub-menu sense seleccionar 
+     background: #333333;
+     */
+    /*background: #FBFBFB;*/
+    z-index: 2; 
+}
+#header .nav .container .row #languages-block-top ul li {
+      color: #FFFFFF;
+      line-height: 35px;
+      font-size: 13px; 
+}
+#header .nav .container .row #languages-block-top ul li a,
+#header .nav .container .row #languages-block-top ul li > span {
+        padding: 0 10px 0 12px;
+        display: block;
+        /* Pere: lletres sub-menu llenguatge 
+         color: white; }
+         */
+        color: #777777;
+}
+#header .nav .container .row #languages-block-top ul li.selected, 
+#header .nav .container .row #languages-block-top ul li:hover a {
+      	/* Pere: fons sub-menu llenguatge seleccionat 
+      	 background: #484848; }
+      	 */
+        color: white;
+        background: #333333; 
+}
+#header .nav .container .row #languages-block-top .current {
+        color: #777777;
+}

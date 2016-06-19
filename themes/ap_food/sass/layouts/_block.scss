@@ -1,0 +1,111 @@
+@import "vars/block.vars";
+
+// block.scss
+
+
+
+// block in sidebar - left column, right column
+.sidebar{
+    .#{$block-selector} {
+        margin-bottom: $block-margin-bottom;   
+        margin-top:0;
+        .#{$block-heading-selector}{
+            color: $block-heading-color;
+            a{
+                color: $block-heading-color;
+            }
+            position: relative;                                                             
+            text-transform: $block-heading-transform;
+            font-family: $block-heading-font-family;    
+            padding: $block-heading-padding;         
+            font-size: $block-heading-font-size;
+            letter-spacing: $block-heading-letter-spacing;   
+            background:$block-heading-bg;  
+            font-weight: 700;
+            @include rounded-corners ($block-heading-radius);
+            border: $block-heading-border; 
+            margin: 0; 
+            &:before {
+                position: absolute; 
+                content: $block-icon-content; 
+                @include rtl-left(20px);
+                font-family: $font-icon;
+            } 
+            
+        }
+        .#{$block-content-selector} {        
+            @include rounded-corners ($block-content-radius);
+            padding: $block-content-padding;
+            @include clearfix();     
+            border: $block-content-border;  
+            background: $block-content-bg;     
+        }
+        &.#{$block-prefix}-highlighted {
+            .#{$block-content-selector} {
+                background: #E54B4B;
+                color:#fff;
+                border-color:#E54B4B;
+            }
+            .product-block{
+                border-bottom:1px solid #b83636;
+                .name a,.price{
+                    color:#fff;
+                }
+                .price-old,.old-price{
+                    color:#333;
+                }
+
+            }
+        }
+    }
+
+    // block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+    // Contextual variations
+    .#{$block-prefix}-default {
+      @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+    }
+    .#{$block-prefix}-primary {
+      @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+    }
+    .#{$block-prefix}-success {
+      @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+    }
+    .#{$block-prefix}-info {
+      @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+    }
+    .#{$block-prefix}-warning {
+      @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+    }
+    .#{$block-prefix}-danger {
+      @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+    }
+    .#{$block-prefix}-highlighted {
+        @include block-variant($block-highlighted-border, $block-highlighted-text, $block-highlighted-bg, $block-highlighted-border);
+    }
+    
+}
+
+// block in header
+// block in footer
+#footer{
+    .#{$block-heading-selector}{
+        font-size: $font-size-base + 1;
+        color:$white;
+        font-weight: 900;
+        font-family: $font-family-base;
+        margin:20px 0;
+        a{
+          font-weight: 900;  
+          color:$white;
+        }
+    }
+}
+
+// block in main
+.#{$block-selector}{
+    margin-top: 25px;
+}
+
+.nopadding{
+    padding: 0 !important;
+}

@@ -1,0 +1,87 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* Block newsletter */
+#columns #newsletter_block_left .success_inline, #columns #newsletter_block_left .warning_inline {
+  text-align: left;
+}
+.rtl #columns #newsletter_block_left .success_inline, .rtl #columns #newsletter_block_left .warning_inline {
+  text-align: right;
+}
+#columns #newsletter_block_left .success_inline {
+  color: #418B19;
+}
+#columns #newsletter_block_left .warning_inline {
+  color: #f13340;
+}
+#columns #newsletter_block_left .input-group-addon {
+  background: #cbc9b4 !important;
+  border-right: none;
+}
+.rtl #columns #newsletter_block_left .input-group-addon {
+  border-left: none;
+  border-right: inherit;
+}
+#columns #newsletter_block_left .form-control {
+  border-left: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 7px 0;
+  background: #cbc9b4 !important;
+}
+.rtl #columns #newsletter_block_left .form-control {
+  border-right: none;
+  border-left: inherit;
+}
+#columns #newsletter_block_left .title_block:before {
+  content: "\f1d8";
+}
+#columns #newsletter_block_left .btn {
+  text-transform: uppercase;
+}
+
+/* Block newsletter footer */
+#footer #newsletter_block_left form {
+  width: 300px;
+  position: relative;
+}
+#footer #newsletter_block_left form input[type="text"] {
+  background: #45474a;
+  border-color: #45474a;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  color: #aaa;
+}
+#footer #newsletter_block_left form .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+}
+.rtl #footer #newsletter_block_left form .btn {
+  left: 0;
+  right: auto;
+}
+#footer #newsletter_block_left .warning_inline {
+  color: #f13340;
+  clear: both;
+}
+#footer #newsletter_block_left .success_inline {
+  color: #418B19;
+}

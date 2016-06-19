@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bgpattern > div {
+	height:20px; width:20px; float:left; margin:1px 3px; border:solid 1px #CCC;
+	cursor:hand; cursor:pointer
+}
+.bgpattern > div.active{
+	border-color:#900;
+}

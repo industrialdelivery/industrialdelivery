@@ -1,0 +1,356 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+a {
+  /* color: $base-text-color; */
+}
+a:hover, a:focus {
+  color: #c33976;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+#header-main {
+  background: white;
+}
+#header-main .container {
+  background: white;
+  color: black;
+}
+
+.btn-inverse {
+  color: white;
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active {
+  color: white;
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.open .btn-inverse.dropdown-toggle {
+  color: white;
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.btn-inverse:active, .btn-inverse.active {
+  background-image: none;
+}
+.open .btn-inverse.dropdown-toggle {
+  background-image: none;
+}
+.btn-inverse.disabled, .btn-inverse.disabled:hover, .btn-inverse.disabled:focus, .btn-inverse.disabled:active, .btn-inverse.disabled.active, .btn-inverse[disabled], .btn-inverse[disabled]:hover, .btn-inverse[disabled]:focus, .btn-inverse[disabled]:active, .btn-inverse[disabled].active, fieldset[disabled] .btn-inverse, fieldset[disabled] .btn-inverse:hover, fieldset[disabled] .btn-inverse:focus, fieldset[disabled] .btn-inverse:active, fieldset[disabled] .btn-inverse.active {
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.btn-inverse .badge {
+  color: #c33976;
+  background-color: white;
+}
+
+.btn-outline {
+  color: white;
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.open .btn-outline.dropdown-toggle {
+  color: white;
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.btn-outline:active, .btn-outline.active {
+  background-image: none;
+}
+.open .btn-outline.dropdown-toggle {
+  background-image: none;
+}
+.btn-outline.disabled, .btn-outline.disabled:hover, .btn-outline.disabled:focus, .btn-outline.disabled:active, .btn-outline.disabled.active, .btn-outline[disabled], .btn-outline[disabled]:hover, .btn-outline[disabled]:focus, .btn-outline[disabled]:active, .btn-outline[disabled].active, fieldset[disabled] .btn-outline, fieldset[disabled] .btn-outline:hover, fieldset[disabled] .btn-outline:focus, fieldset[disabled] .btn-outline:active, fieldset[disabled] .btn-outline.active {
+  background-color: #c33976;
+  border-color: #c33976;
+}
+.btn-outline .badge {
+  color: #c33976;
+  background-color: white;
+}
+
+.ajax_add_to_cart_button {
+  background: #c33976;
+  border: 1px solid #c33976;
+}
+.ajax_add_to_cart_button:hover {
+  color: white;
+  background: #c33976;
+  border: 1px solid #c33976;
+}
+
+.sidebar .block .title_block {
+  background: #c33976;
+}
+
+.carousel-control {
+  background: #c33976 !important;
+  border-color: #c33976;
+}
+.carousel-control:hover {
+  background: #c33976 !important;
+  border-color: #c33976;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #c33976;
+  color: #c33976;
+}
+
+#topbar {
+  background: #451f30;
+}
+#topbar .container {
+  background: #451f30;
+  color: #bb90a3;
+}
+#topbar a {
+  color: #bb90a3;
+}
+#topbar a:hover {
+  color: #c33976;
+}
+
+#cart .title-cart {
+  background: #c33976;
+}
+
+.popup-over .popup-title:before {
+  color: #69314a;
+}
+
+#leo-megamenu .navbar-nav > li > a {
+  color: black !important;
+}
+#leo-megamenu .navbar-nav > li > a:hover, #leo-megamenu .navbar-nav > li > a:focus, #leo-megamenu .navbar-nav > li > a:active {
+  color: #c33976 !important;
+  border-bottom: 3px solid #c33976;
+}
+#leo-megamenu .navbar-nav > li:active > a {
+  color: #c33976;
+}
+#leo-megamenu .navbar-nav > li:hover > .caret, #leo-megamenu .navbar-nav > li:active > .caret {
+  color: #c33976;
+}
+#leo-megamenu .navbar-nav > li.active > a {
+  border-bottom: 3px solid #c33976;
+  color: #c33976 !important;
+}
+#leo-megamenu .dropdown-menu li a:hover {
+  background-color: transparent;
+  color: #c33976 !important;
+}
+
+/* PRODUCT */
+.product-block .price, .product-block .name a:hover {
+  color: #c33976;
+}
+.product-block .price-percent-reduction {
+  background: #c33976;
+}
+.product-block .functional-buttons .wishlist, .product-block .functional-buttons .compare {
+  border-left: 1px solid #69314a;
+}
+.rtl .product-block .functional-buttons .wishlist, .rtl .product-block .functional-buttons .compare {
+  border-right: 1px solid #69314a;
+  border-left: inherit;
+}
+
+.our_price_display, #availability_value, #last_quantities {
+  color: #c33976;
+}
+
+#thumbs_list li a:hover, #thumbs_list li a.shown {
+  border-color: #c33976;
+}
+
+#view_scroll_left:before, #view_scroll_left:hover:before, #view_scroll_right:before, #view_scroll_right:hover:before {
+  color: #c33976;
+}
+
+/* MODULE */
+form#searchbox button.btn {
+  background: #c33976;
+}
+
+.newsletter #newsletter_block_left {
+  background: #fdf4f9;
+  border-left: 80px solid #c33976;
+}
+.rtl .newsletter #newsletter_block_left {
+  border-right: 80px solid #c33976;
+  border-left: inherit;
+}
+.newsletter input.form-control, .newsletter .input-group-addon {
+  background: #d989ae;
+  border-color: #d989ae;
+}
+
+.widget-footer-top:before {
+  background: white;
+}
+
+.widget-footer-nav:before {
+  border-top: 3px double #7b5f6b;
+}
+
+#social_block ul li a:hover {
+  background: #7b5f6b;
+}
+#social_block ul li a:before {
+  border: 2px solid #7b5f6b;
+}
+
+.socialsharing_product button {
+  border: 2px solid #7b5f6b;
+}
+.socialsharing_product button:hover {
+  background: #7b5f6b;
+  color: #c33976;
+}
+
+#usefull_link_block li {
+  border: 2px solid #7b5f6b;
+}
+#usefull_link_block li#favoriteproducts_block_extra_remove:before, #usefull_link_block li#favoriteproducts_block_extra_add:before, #usefull_link_block li#favoriteproducts_block_extra_removed:before, #usefull_link_block li#favoriteproducts_block_extra_added:before {
+  color: #c33976;
+}
+#usefull_link_block li:hover {
+  background: #7b5f6b;
+}
+
+/* FOOTER */
+#footer {
+  background: #451e30;
+}
+#footer .container {
+  background: #451e30;
+  color: #bb90a3;
+}
+#footer a {
+  color: #bb90a3;
+}
+#footer a:hover {
+  color: #c33976;
+}
+#footer .title_block {
+  color: #c33976;
+}
+#footer .title_block a {
+  color: #c33976;
+}
+
+.content_sortPagiBar {
+  background: #fdf4f9;
+}
+.content_sortPagiBar .display .selected a .fa {
+  color: #c33976;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  color: #c33976;
+}
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  color: #c33976;
+}
+
+#backtop {
+  background: #c33976;
+}
+
+.breadcrumb {
+  background-color: #c33976;
+  color: white;
+}
+.breadcrumb a:hover {
+  color: white;
+}
+
+#off-canvas-nav .offcanvas-mainnav {
+  background: #c33976;
+}
+#off-canvas-nav .navbar-nav > li > a:hover, #off-canvas-nav .navbar-nav > li > a:focus {
+  background: #fdf4f9;
+  color: #c33976 !important;
+}
+
+.navbar-header .navbar-toggle {
+  background: #c33976;
+}
+
+.widget .owl-theme .owl-controls .owl-buttons div {
+  border: 1px solid #c33976;
+  color: #c33976;
+}
+.widget .owl-theme .owl-controls .owl-buttons div:hover {
+  background: #c33976;
+}
+.widget .owl-theme .owl-controls .owl-page.active span {
+  background: #c33976;
+}
+
+.newsletter input.form-control, .newsletter .input-group-addon {
+  color: #fff;
+}
+.newsletter .form-control-static {
+  color: #000;
+}
+.newsletter #newsletter_block_left .title_block {
+  color: #c33976;
+}
+
+.product-block .name a {
+  color: #000;
+}
+
+.widget-manufacture .logo-manu img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.socialsharing_product .btn-facebook,
+.socialsharing_product .btn-twitter,
+.socialsharing_product .btn-google-plus,
+.socialsharing_product .btn-pinterest,
+#usefull_link_block li a:before {
+  color: #7b5f6b;
+}
+
+#usefull_link_block li a:hover:before {
+  color: #c33976 !important;
+}

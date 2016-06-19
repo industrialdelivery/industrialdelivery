@@ -1,0 +1,64 @@
+h1{margin-bottom:10px;}
+h4.title-category {
+	padding: 20px 0;
+	color: #1BA1E2;
+	font-size: 20px;
+}
+h4.title-category span {
+	color: #1BA1E2;
+}
+.resumecat {
+	margin:15px 0 10px 0;
+	padding:8px 7px;
+	color:#000;
+}
+
+.content_scene_cat {
+	padding: 12px 0;
+	border: none;
+}
+
+.cat_desc {
+	font-size:12px;
+	line-height:18px;
+}
+.cat_desc p {padding:0 10px 5px 10px}
+.cat_desc .lnk_more {
+   padding:0 10px;
+   color:#0088CC;
+	background:url(../img/arrow_right_1.png) no-repeat 100% 4px transparent;
+}
+
+
+/* ************************************************************************************************
+      SUB CATEGORIES
+************************************************************************************************ */
+#subcategories {}
+#subcategories h3 {
+	padding: 0 20px;
+	font-size:13px;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 1px 0 #666;
+	background: #1BA1E2
+}
+
+.inline_list {
+	list-style-type:none;
+	margin-top:10px;
+}
+.inline_list  li {
+	padding:10px 0;
+	border-bottom:1px dotted #ccc
+}
+.inline_list  li .img {
+	float:left;
+	margin-right:15px
+}
+.inline_list  li img {
+	border:1px solid #ccc
+}
+.inline_list  li .cat_name {
+	font-weight:bold;
+	font-size:13px
+}

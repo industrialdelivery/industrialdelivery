@@ -1,0 +1,110 @@
+.mobassistantconnector_invisible {
+    display: none !important;
+}
+
+.mobassistantconnector_center {
+    text-align: center;
+}
+
+table#mobassistantconnector_devices_table {
+    width: 100%;
+}
+
+table#mobassistantconnector_devices_table tr th {
+    padding: 5px;
+    text-align: center;
+    background-color: #f0f0f0;
+    vertical-align: middle;
+}
+
+table#mobassistantconnector_devices_table tr td {
+    padding: 5px;
+}
+
+table#mobassistantconnector_devices_table tr.mobassistantconnector_device_delimiter td {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+table#mobassistantconnector_devices_table tr td.mobassistantconnector_device_delimiter {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+div.mobassistantconnector_delete {
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.mobassistantconnector_status div {
+    cursor: pointer;
+}
+
+#mobassistantconnector_bulk_btn {
+    padding: 4px 2px 4px 7px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #888888;
+}
+
+#mobassistantconnector_bulk_btn:hover {
+    background-color: #00aff0;
+    color: #fff;
+    border-color: #008abd;
+    box-shadow: none;
+}
+
+#mobassistantconnector_bulk_list {
+    position: absolute;
+    border: 1px solid #999999;
+    display: none;
+    z-index: 100;
+    background-color: white;
+    padding: 5px;
+    margin-top: -8px;
+    box-shadow: 0 0 5px #888888;
+}
+
+#mobassistantconnector_bulk_list table tbody tr:not(.mobassistantconnector_delimiter):hover td {
+    cursor: pointer;
+    background-color: #00aff0;
+    color: white;
+}
+
+#mobassistantconnector_bulk_list table tbody tr.mobassistantconnector_delimiter td hr {
+    margin: 0;
+}
+
+#mobassistantconnector_bulk_list table tr td {
+    padding: 4px;
+}
+
+#mobassistantconnector_bulk_list table tr td img {
+    display: block;
+}
+
+#mobassistantconnector_loader_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+
+.mobassistantconnector_inactive {
+    opacity: 0.3;
+}
+
+div.mobassistantconnector_loader {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+div.mobassistantconnector_loader img {
+    margin: auto;
+}
+
+#mobassistantconnector_devices_container {
+    position: relative;
+}
+

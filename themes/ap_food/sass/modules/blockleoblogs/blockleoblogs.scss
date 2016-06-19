@@ -1,0 +1,94 @@
+@import "compass";
+@import "theme_variables";
+
+	//header blog
+	.blogs_block{
+		color:#000;
+		.item {
+			padding-top:10px;
+			padding-bottom:30px;
+			border-bottom:1px solid #000;
+		}
+		a{
+			color:#000 !important;
+			&:hover{
+				color:$theme-color-default !important;
+			}
+		}
+	}
+
+	.blog_container {
+		margin:20px 0;
+		.blog-image{
+			@include rtl-float-left();
+			@include rtl-margin-right(30px);
+			overflow: hidden;
+			img{
+				@include transform(scale(1.1));
+				@include transition(all 0.5s ease-in-out 0s);
+			}
+			&:hover img{
+				@include transform(scale(1));
+			}
+		}
+		.blog-meta{
+			padding:0 20px;
+			h5{
+				font-size: $font-size-base + 1;
+				margin: 20px 0;
+				font-weight: bold;
+			}
+			.btn-sm{
+				@include border-radius(0);
+				color:#fff !important;
+			}
+		}
+		.blog-created{
+			font-size: $font-size-base - 2;
+			font-style: italic;
+			margin-bottom: 10px;
+			display: block;
+		}
+		.blog-shortinfo{
+			margin-bottom: 19px;
+			line-height: 23px;
+		}
+		.view{
+			font-size: $font-size-base - 2;
+			font-family: $font-family-base; 
+			text-transform: uppercase;
+			border: 1px solid #ddd;
+			padding: 5px 10px;
+			@include rounded-corners (4px);
+		}
+	
+
+	}
+// blog contaniner
+.blog-container{
+
+	.blog-meta{
+		margin-bottom: 20px;
+		a{
+			color:#000;
+		}
+	}
+	.blog-description,.blog-content{
+		margin:20px 0;
+	}
+}
+//list blogs
+
+.blogs-container{
+	.blog-item{
+		padding: 20px 0;
+	}
+	h4{
+		font-size: 16px;	
+	}
+	.btn{
+		margin-top: 10px;
+	}
+}
+
+

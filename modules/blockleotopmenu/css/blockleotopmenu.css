@@ -1,0 +1,4 @@
+.nav > .dropdown:hover > .dropdown-menu{
+	display:block;
+}
+.nav li{line-height:20px}

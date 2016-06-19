@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-footer_5813ce0ec7196c492c97596718f71969'] = 'карта сайта';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-footer_bbaff12800505b22a853e8b7f4eb6a22'] = 'контакты';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-footer_714814d37531916c293a8a4007e8418c'] = 'добавить страницу в закладки';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_2f8a6bf31f3bd67bd2d9720c58b19c9a'] = 'Контакты';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_e1da49db34b0bdfdddaba2ad6552f848'] = 'Карта сайта';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_fad9383ed4698856ed467fd49ecf4820'] = 'в закладки';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_39355c36cfd8f1d048a1f84803963534'] = 'Блок постоянных ссылок';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_52ecdc5932442c5f2a22ade561140870'] = 'Добавляет блок, отображающий постоянные ссылки, например - контакты, карта сайта и т.п.';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_5813ce0ec7196c492c97596718f71969'] = 'карта сайта';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_bbaff12800505b22a853e8b7f4eb6a22'] = 'контакты';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_2d29fbe96aaeb9737b355192f4683690'] = 'добавить страницу в закладки';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header - copy_9a9e6a00e87dededf4f066cdca8234ca'] = 'Информация о пользователе';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header - copy_bea8d9e6a0d57c4a264756b4f9822ed9'] = 'Мой счет';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header - copy_6ff063fbc860a79759a7369ac32cee22'] = 'Контроль';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header - copy_b75443a19207ed3a3552edda86536857'] = 'Корзина';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header - copy_7ec9cceb94985909c6994e95c31c1aa8'] = 'Мой список пожеланий';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header - copy_4840f4437f55e68a587d358090b948d1'] = 'Мой список пожеланий';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_9a9e6a00e87dededf4f066cdca8234ca'] = 'Информация о пользователе';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_9a843f20677a52ca79af903123147af0'] = 'Добро пожаловать!';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_2cbfb6731610056e1d0aaacde07096c1'] = 'Посмотреть мои счета клиента';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_4b877ba8588b19f1b278510bf2b57ebb'] = 'Выйду';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_4394c8d8e63c470de62ced3ae85de5ae'] = 'Выйти';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_b145abfd6b2f88971d725cbd94a5879f'] = 'Вход в вашей учетной записи клиента';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_bffe9a3c9a7e00ba00a11749e022d911'] = 'Войти';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_bea8d9e6a0d57c4a264756b4f9822ed9'] = 'Мой счет';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_7ec9cceb94985909c6994e95c31c1aa8'] = 'Мой список пожеланий';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks-header_4840f4437f55e68a587d358090b948d1'] = 'Мой список пожеланий';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_e1da49db34b0bdfdddaba2ad6552f848'] = 'Карта сайта';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_2f8a6bf31f3bd67bd2d9720c58b19c9a'] = 'связаться';
+$_MODULE['<{blockpermanentlinks}leoconv>blockpermanentlinks_05eb51862bc90ef24d04f3f1d8be5274'] = 'закладку на этой странице';

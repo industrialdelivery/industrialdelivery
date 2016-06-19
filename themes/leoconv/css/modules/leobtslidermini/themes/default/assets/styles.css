@@ -1,0 +1,118 @@
+.leobttslidermini {
+	position:relative;
+	margin: 20px 0;
+}
+.leobttslidermini h4.title_block {
+	font-size: 20px;
+	padding-bottom: 10px;
+	font-weight: normal; 
+}
+.leobttslidermini .carousel-inner a img {
+	border-top: 2px solid #1BA1E2;
+}
+.leobttslidermini .carousel-inner{
+	position:relative; 
+}
+.leobttslidermini .banner-info{
+	background:url(images/bg-slider.png);
+	color: #FFFFFF;
+    line-height: 18px;
+    min-height: 100px;
+    padding: 15px;
+    position: absolute;
+    right: 45px;
+    text-align: center;
+    bottom: 55px;
+    width: 225px;
+    z-index: 7;
+}
+.banner-info h1 {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+.banner-info a.bnt{
+	border: 3px solid #e1596c;
+	color: #45a5a5;
+	background: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 0 22px ;
+	 line-height: 35px;
+	 display: inline-block;
+	 margin: 20px 0 10px;
+	 font-family: "lora",arial;
+	 font-size: 13px;
+	 font-weight: 700;
+	}
+.slide-info h1 {
+	font-size: 17px;
+	margin-bottom: 6px;
+}
+.leobttslidermini .item .desc {
+	line-height: 18px;
+}
+.leobttslidermini .slide-info{
+	background: url("images/bg-infor.png") repeat scroll 0 0 transparent;
+	position: absolute;
+	color: #fff;
+	padding: 10px;
+	bottom: 0;
+	width: 265px;
+}
+.leobttslidermini .carousel-control {
+	background-image: url("images/icon-carousel-control.png");
+	background-position: 0 0;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 0;
+	width: 32px;
+	height: 31px;
+	font-size: 0;
+	bottom: 88px;
+	top: inherit;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+.leobttslidermini .carousel-control.left { 
+	left: 5px;
+}
+.leobttslidermini .carousel-control.right { 
+	right: 16px;
+	background-position: -32px -1px;
+}
+.leobttslidermini .carousel-control.left:hover { 
+	background-position: 0 -32px;
+}
+.leobttslidermini .carousel-control.right:hover { 
+	background-position: -32px -32px;
+}
+.leobttslidermini .carousel-indicators{
+	bottom: 10px;
+    top: inherit;
+	background: #242a2f;
+	left: 0;
+	width: 100%;
+	margin: 10px 0;
+	display: inline-block;
+	position:relative;
+}
+.leobttslidermini .carousel-indicators li{ display:block;float:left;	z-index:20;
+	padding:10px; 
+	margin:3px;
+border-radius: 0;	}
+.leobttslidermini .carousel-indicators li.active{ 
+	border: 1px solid #48AEAE;
+}	
+.leobttslidermini .carousel-indicators li {
+	border: 1px solid #242A2F;}
+.leobttslidermini  .thumb-indicators li {text-indent:0; 
+   display: block;
+    float: left;
+    height: auto;
+    margin: 10px 0 10px 8px;
+    padding: 0;
+    text-indent: 0;
+    width: auto;
+    z-index: 20;
+}

@@ -1,0 +1,19 @@
+
+	#contact  fieldset {
+		padding:0 0 15px 0; 
+	}
+		#contact  h3 { 
+		    padding: 0 10px;
+		    text-transform: capitalize;
+		}
+		#contact #center_column p {margin:0; padding:0 0 10px 0;}
+		#contact #center_column p.desc_contact { 
+			text-align: center; 
+			padding-left: 10px; 
+			padding-right: 10px; 
+		}
+		 
+		#contact .textarea textarea { 
+			height: 100px;
+			width: 212px;
+		}  

@@ -1,0 +1,92 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.blogs_block .page-subheading {
+  display: none;
+}
+.blogs_block .item {
+  padding-top: 10px;
+}
+
+.blog_container {
+  background: #fff;
+  margin-top: 20px;
+}
+.blog_container .blog-image {
+  float: left;
+  margin-right: 30px;
+}
+.rtl .blog_container .blog-image {
+  float: right;
+}
+.rtl .blog_container .blog-image {
+  margin-left: 30px;
+  margin-right: inherit;
+}
+.blog_container .blog-meta {
+  padding: 20px;
+}
+.blog_container .blog-meta h5 {
+  font-size: 14px;
+  text-transform: none;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.blog_container .blog-meta .btn-sm {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.blog_container .blog-created {
+  font-size: 11px;
+  font-style: italic;
+  margin-bottom: 10px;
+  display: block;
+}
+.blog_container .blog-shortinfo {
+  margin-bottom: 19px;
+  line-height: 23px;
+}
+.blog_container .view {
+  font-size: 11px;
+  font-family: "Lato";
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.blog-container .blog-meta {
+  margin-bottom: 20px;
+}
+.blog-container .blog-description, .blog-container .blog-content {
+  margin: 20px 0;
+}
+
+.blogs-container .blog-item {
+  padding: 20px 0;
+}
+.blogs-container h4 {
+  font-size: 16px;
+}
+.blogs-container .btn {
+  margin-top: 10px;
+}

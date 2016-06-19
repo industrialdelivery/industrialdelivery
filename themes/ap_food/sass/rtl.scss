@@ -1,0 +1,77 @@
+@import "compass";
+@import "theme_variables";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+@import "bootstrap/rtl/grid";
+// Utility classes
+@import "bootstrap/rtl/utilities";
+@import "bootstrap/rtl/responsive-utilities";
+
+/********************************************************
+			Right to Left Styles
+********************************************************/
+
+* {
+	direction: rtl !important;
+}
+#page {
+	text-align: right !important;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], 
+.checkbox input[type="checkbox"], 
+.checkbox-inline input[type="checkbox"] {
+    float:right;
+    margin-right:-20px;
+}
+
+.radio, .checkbox{
+	padding-right:20px;
+}
+// paneltool
+
+.panelbutton {
+    -webkit-box-shadow: -3px 1px 2px #888888;
+    box-shadow: -3px 1px 2px #888888;
+ }
+.fancybox-margin {margin-right: 0px!important;}
+
+.editortool .label-customize {
+    background-image: url('#{$image-theme-base-path}label_customize-1.png');
+}
+.editortool .label-customize:hover {
+    background-position: 0 -111px;
+}
+
+#address,
+#identity,
+#account-creation_form,
+#new_account_form,
+#opc_account_form,
+#authentication {
+  .gender-line {
+    
+    > label {
+      margin-left:10px;
+      
+    }
+  }
+}
+
+//product
+.rtl {
+	.nav-tabs > li{
+		float:right;
+	}
+	#quantity_wanted_p {
+		.button-plus,.button-minus{
+			border-left: 1px solid #bbb;
+			border-right:none;
+		}
+	}
+	
+}
+
+.accessories-block ul li{float: right !important;}

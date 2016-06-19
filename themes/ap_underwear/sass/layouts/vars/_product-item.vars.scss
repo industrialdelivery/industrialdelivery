@@ -1,0 +1,35 @@
+// Button
+// ========================================================================
+	// add to cart
+$button-addtocart-bg:               $theme-color-secondary !default;
+$button-addtocart-color:            #fff !default;
+$button-addtocart-border:           $nocolor !default;
+
+$button-addtocart-bg-hover:         $theme-color-default !default;
+$button-addtocart-color-hover:      $white  !default;
+$button-addtocart-border-hover:     $theme-color-default !default;
+
+$button-addtocart-font-size:        $font-size-base !default;
+$button-addtocart-font-family:      $font-family-base !default;
+
+//---------- Product Elements
+	// price
+$price-color:						#c33976 !default;
+$product-price-color:				$price-color;
+$product-price-reduction-bg:		$theme-color-secondary;
+$product-price-old-color: 			#bb86c6 !default;
+$product-price-font-family:         $font-family-senary !default;
+$product-price-font-size:           $font-size-base + 5 !default;
+  
+	// name
+$product-name-color:                #fff!default;
+$product-name-hover-color:          $link-hover-color!default;
+$product-name-font-family:          $headings-font-family !default;
+$product-name-font-size: 			$font-size-base + 1 !default;
+  
+  	// image
+$product-image-border:              $main-border !default;
+$product-image-radius:              0px !default;
+	
+	// rating
+$product-rating-font-size: 12px !default;  

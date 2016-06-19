@@ -1,0 +1,140 @@
+/*MENU*/
+.navbar-inner {
+	background: #ce2920;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	background: #bb261e;
+	box-shadow: inherit;
+	color: #fff;
+}
+.navbar .nav > li {
+	background: url("../images/bg-li.png") repeat-y scroll right 0 transparent;
+}
+.dropdown-menu {
+	border-top: 5px solid #ce2920;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	color: #ce2920 !important;
+}
+.navbar .nav > li > .dropdown-menu:before{
+	content: url("../images/bg-ul.png");
+}
+#search_block_top .button {
+	background: url("../images/bg-search.png") no-repeat scroll right center transparent;
+}
+
+/*SLIDE SHOW*/
+.leobttslider .carousel-indicators li.active, .leobttslider .carousel-indicators li:hover {
+	background: #ce2920;
+}
+
+/*SHOPPING CART*/
+#shopping_cart a {
+	background: url("../images/icon-cart.png") no-repeat scroll left 0 #FFFFFF;
+}
+#leo-header #cart_block {
+	border-color: #ce2920;
+}
+#leo-header #cart_block:before {
+	content: url("../images/bg-ul.png");
+}
+#cart_block #cart-buttons #button_order_cart {
+	background: #ce2920;
+}
+
+/*CONTENT*/
+.block .title_block, .block h4, .block .title_block a, .block h4 a,
+.our_price_display,
+#new-products_block_right dd a.lnk_more,
+#categories_block_left li a:hover,
+.breadcrumb .navigation_page,
+h4.title-category,
+h4.title-category span,
+.pagination ul > li > a:hover, .pagination ul > li.current a, .pagination ul > li.current span, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span
+ {
+	color: #ce2920;
+}
+.content_price, .price_container,
+.content_prices #add_to_cart .exclusive,
+#subcategories h3 {
+	background: #ce2920;
+}
+#leo-leftcol .block, #leo-rightcol .block {
+	border-color: #ce2920;
+}
+input.button_mini, input.button_small, input.button, input.button_large, input.button_mini_disabled, input.button_small_disabled, input.button_disabled, input.button_large_disabled, input.exclusive_mini, input.exclusive_small, input.exclusive, input.exclusive_large, input.exclusive_mini_disabled, input.exclusive_small_disabled, input.exclusive_disabled, input.exclusive_large_disabled, a.button_mini, a.button_small, a.button, a.button_large, a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large, span.button_mini, span.button_small, span.button, span.button_large, span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large, span.exclusive_large_disabled {
+	background: #048e27;
+}
+#view_scroll_left, #view_scroll_right {
+	background: url("../images/thumbs_left.png") no-repeat scroll center center transparent;
+}
+#view_scroll_right{
+	background-image: url("../images/thumbs_right.png");
+}
+
+/*GRID VIEW*/
+.active[class^="icon-"], .active[class*=" icon-"] {
+	background-image: url("../images/glyphicons-halflings_red.png");
+}
+
+/*LEO CUSTOM HTML*/
+.leobttslidermini .carousel-control.left:hover {
+	background-position: 0 -188px;
+}
+.leobttslidermini .carousel-control.right:hover{
+	background-position: -32px -188px;
+}
+.leobttslidermini .carousel-inner a img,
+#leo-customhtml-home .custom-bottom a img {
+	border-color: #ce2920;
+}
+.leobttslidermini h4.title_block {
+	color: #ce2920;
+}
+
+/*FOOTER*/
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2.shipping {
+	background: url("../images/icon-shipping.png") no-repeat scroll left center transparent
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 h2.call {
+	background: url("../images/icon-call.png") no-repeat scroll left center transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text .custom-pos1 span,
+#lofadvafooterfooter #lofadva-pos-2 li.link a:hover,
+#lofadvafooterfooter #lofadva-pos-3 ul li.link a
+ {
+	color: #ce2920;
+}
+#itw-tweets a {
+	color: #ce2920 !important; 
+}
+#newsletter_block_left input.button_mini {
+	background: url("../images/icon-letter.png") no-repeat scroll right center transparent;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.twitter:hover {
+	background-position: 0 -286px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.rss:hover {
+	background-position: -45px -286px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.facebook:hover {
+	background-position: -93px -286px;
+}
+#lofadvafooterfooter #lofadva-pos-1 .lof-text ul li.skype:hover {
+	background-position: -143px -286px;
+}
+
+/*CHECK OUT*/
+#create-account_form h3, #authentication #login_form h3,
+#account-creation_form h3,
+#add_address h3,
+table.std th, table.table_block th,
+.addresses ul.address .address_title,
+table#cart_summary th,
+.cart_total_price .total_price_container p,
+#new_account_form h3,
+ul.address li.address_title,
+#contact h3
+ {
+	background: #ce2920;
+}

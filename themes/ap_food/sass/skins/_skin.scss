@@ -1,0 +1,361 @@
+
+//base
+a{
+    /* color: $base-text-color; */
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+}
+
+
+body {
+  background-color: $body-bg;
+} 
+#header-main{
+   background: $headermain-outside-bg;
+   .container{
+        @include container-layout-variant($headermain-color, $headermain-bg); 
+    }
+}
+
+
+.btn-outline{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $white, $black , $black );
+} 
+.btn-inverse{
+  @include button-variant-outline($white, $black , $black , $white, $theme-color-default, $theme-color-default );
+}
+
+.ajax_add_to_cart_button{
+    background: $theme-color-default;
+    border: 1px solid $button-addtocart-border;
+    &:hover{
+        color: $button-addtocart-color-hover;
+        background: $button-addtocart-bg-hover;
+        border: 1px solid $button-addtocart-border-hover;
+    }
+}
+
+.sidebar{
+    .#{$block-selector} {
+        .#{$block-heading-selector}{
+            background:$theme-color-default;   
+        }
+
+    }
+    .#{$block-prefix}-highlighted {
+        .#{$block-heading-selector}{
+            background:$block-highlighted-bg;   
+        }
+    }
+
+}
+
+.popup-over .popup-content a:hover{
+  color:$theme-color-default !important;
+}
+
+// BUTTONS
+.carousel-control{
+  &:hover{
+    background: $theme-color-default !important;
+    border-color:$theme-color-default;
+  }
+}
+
+
+ 
+
+//TABS
+
+.nav-tabs { 
+
+  & > li.active > a,
+  > li.active > a:hover,
+  > li.active > a:focus,
+  > li > a:hover,
+  > li > a:focus { 
+    background: $nocolor; 
+    border:none;
+    border-bottom: 2px solid $theme-color-default;
+  }
+}
+
+//TOPBAR
+#topbar  {
+    background: $topbar-outside-bg;
+    .container{
+        @include container-layout-variant($topbar-color, $topbar-bg);
+    }
+    a{
+      color: $topbar-color;
+        &:hover,&.login{color: $topbar-color-hover;}
+    }
+}
+
+#cart .title-cart{
+  color: $theme-color-default;
+  background: #FFF;
+  .cart-quantity{
+    background: $yellow-light;
+  }
+}
+
+.popup-over{
+  @include rtl-border-left(1px solid $topbar-border);
+  .popup-title:before{
+      color:$yellow-light;
+  }
+}
+
+li.login{
+    background: url(#{$image-theme-base-path}icon-topbar.png) no-repeat;
+    @include rtl-background-position-left(0);
+    @include rtl-padding(5px, 5px, 5px, 35px);
+} 
+
+//  MEGAMENU
+
+##{$app-brand-prefix}-megamenu {
+    .navbar-nav{
+    > li {
+      > a{
+        &:hover,&:focus,&:active{         
+          color: $megamenu-link-hover-color!important;        
+        }
+      } 
+      &:active{
+        > a{color: $megamenu-link-hover-color;}
+      }
+      &:hover > .caret, &:active > .caret{
+        color: $megamenu-link-hover-color;
+      }
+      &.active,&:hover{
+          >a{
+            color:$theme-color-default !important;
+            &:before{
+              background:$theme-color-default;
+            }
+          }
+      }
+    }     
+  }
+    .dropdown-menu{     
+    li{
+        a:hover{
+            background-color: transparent;
+            color: $theme-color-default !important;            
+            
+          }
+      }       
+    }
+}
+
+/* PRODUCT */
+.product-block {
+    .price,.name a:hover{
+        color: $theme-color-default;
+    }
+    .price-percent-reduction{
+      background: $theme-color-default;
+    }
+    .functional-buttons{
+      .wishlist,.compare{
+        @include rtl-border-left(1px solid $green-light);
+      }
+    }
+}
+
+.our_price_display,#availability_value, #last_quantities{
+  color:$theme-color-default;
+}
+
+/* MODULE */
+.bannercontainer .tp-caption{
+  &.big_orange,&.noshadow{
+    background: $theme-color-default !important;
+  }
+}
+
+//block cart
+
+#cart .heading{
+  background: $theme-color-default;
+  a span.fa{
+    @include rtl-border-right(1px solid $green-light);
+  }
+}
+
+//newsletter
+.newsletter{
+    #newsletter_block_left{
+    background: $silver;
+    @include rtl-border-left(80px solid $theme-color-default);
+    .title_block{
+      color:$theme-color-default;
+    }
+  }
+  input.form-control,.input-group-addon{
+    background: $body-bg;
+  }
+} 
+//blog
+.blogs_block a:hover{
+  color:$theme-color-default !important;
+}
+// widget
+.widget-footer-top:before{
+   background: $body-bg; 
+}
+
+
+//social
+#social_block ul li a{
+  color:$grey;
+  &:hover{
+    background: $grey;
+    color:$theme-color-default;
+  }
+  &:before{
+    border:2px solid $grey;
+  }  
+}
+//Social Sharing
+.socialsharing_product {
+  .btn-facebook,
+  .btn-twitter,
+  .btn-google-plus,
+  .btn-pinterest { 
+    background:$nocolor;
+    color: $theme-color-default;
+  }
+  button{
+    border: 2px solid $theme-color-default;
+  }
+}
+
+#usefull_link_block li{
+  border:2px solid $theme-color-default;
+  a:before{
+    color:$theme-color-default;
+  }
+    &#favoriteproducts_block_extra_remove,
+    &#favoriteproducts_block_extra_add,
+    &#favoriteproducts_block_extra_removed,
+    &#favoriteproducts_block_extra_added{
+      &:before{
+        color:$theme-color-default;
+      }
+  }
+} 
+
+
+
+/* FOOTER */
+#footer{
+    background: $footer-outside-bg;
+    .container{
+        @include container-layout-variant($footer-color, $footer-bg); 
+    } 
+    a{
+        color: $footer-color;
+        &:hover{color: $link-hover-color;}
+    }
+    
+}
+
+//prestashop page
+.content_sortPagiBar{
+  
+	.display{
+    .selected{
+  		a{	
+			    .fa {
+			         color: $theme-color-default; 
+			    }   
+  		}
+    }
+	}
+} 
+
+.pagination {
+  > .active > a,
+  > .active > span {
+    &,
+    &:hover,
+    &:focus {
+      color: $theme-color-default;
+    }
+  }
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      color: $theme-color-default;
+    }
+  }
+}
+
+#backtop {
+    background: $theme-color-default;
+}
+// BREADCRUMB
+.breadcrumb {
+  background-color: $breadcrumb-bg;
+	color: $breadcrumb-active-color;       
+	a {
+	  &:hover {
+	      color: $breadcrumb-active-color;
+	  }
+	}
+
+}
+
+//OFF CANVAS MENU
+
+#off-canvas-nav{
+  .offcanvas-mainnav{
+    background: $theme-color-default;
+  }
+  .navbar-nav > li > a{
+    &:hover,&:focus{
+      background: $body-bg;
+      color:$theme-color-default !important;
+    }
+  }
+} 
+
+
+.navbar-header .navbar-toggle{
+  background: $theme-color-default;
+} 
+
+// owl-carousel
+.widget {
+  .owl-theme {
+    .owl-controls {
+      .owl-buttons {
+        div {
+          border: 1px solid $theme-color-default;
+          color: $theme-color-default;
+          &:hover{
+            background: $theme-color-default;
+          }
+        }
+      }
+      .owl-page {
+        &.active {
+          span {
+            background: $theme-color-default;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

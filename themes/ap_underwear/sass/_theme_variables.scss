@@ -1,0 +1,84 @@
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "mixins/theme";
+
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : leo !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : block!default;
+$block-selector          : block !default;
+$block-heading-selector  : title_block !default;
+$block-content-selector  : block_content !default;
+
+//------- Path Variables
+$image-path:                   "images/"!default;
+$font-custom-path:             "../fonts/"!default; 
+$image-theme-base-path:        "../img/"!default;
+$image-base-path:              "../../../img/"!default;
+$image-module-path:            "../../../img/icon/"!default;
+$module-path:                  "../../../modules/"!default;
+
+$theme-font-path	   :          	 "../fonts/" !default; 
+
+
+/***********************************************************************/
+// some basic colors
+
+$white:			 				    #FFFFFF !default;
+$black:							    #000000 !default;
+$blue:                              #6087D2 !default;  // Skin blue
+$wild-sand:                         #ddd !default;  
+$silver:                            #573857 !default;  
+$red:            					#ff0000!default;
+$red-light:            				#902e59!default;
+$yellow-light:           			#35093f!default;
+$nocolor:							transparent!default;
+$purple:							#614b66 !default;
+$dark-purple:						#200127 !default;
+
+// Variables paths 
+// ========================================================================
+$font-family-tertiary  :             "Lato" !default;		// font for menu
+$font-family-septenary : 			 "Lato" !default; 		// font for slideshow
+$font-family-senary    : 		 	 "Lato" !default;		// font for Price
+
+$font-icon 	   : 			 "FontAwesome" !default;
+
+//////////////////// Variables defined for Themes + Skins //////////////// 
+
+$theme-color-default : 			    #2F092E !default;
+$theme-color-secondary :			#c33976 !default;
+$theme-color-tertiary:              #9c9c9c !default;
+
+//-------- BORDERS
+$border-color:						#553554 !default;
+$main-border:						1px solid $border-color !default;
+$main-border-hover:                 1px solid $theme-color-secondary!default;
+
+//--------- BACKGROUNDS
+$dark-background:                   $black!default;
+$light-background:                  $white!default;
+
+/** CHECKOUT BY STEP */
+$checkout-step-container-border : solid 1px  $border-color!default;
+$checkout-step-container-margin : 30px !default;
+$checkout-step-font-size:18px !default;
+$checkout-step-font-color : $white !default;
+$checkout-step-button-bg: $nocolor !default; 
+$checkout-step-button-padding: 10px 15px;  
+
+// product page
+
+// product list
+
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;
+

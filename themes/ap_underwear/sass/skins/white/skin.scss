@@ -1,0 +1,88 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$theme-color-secondary: 	#c33976;
+$theme-color-default: 		#c33976;
+
+$link-hover-color: 			$theme-color-default;
+$yellow-light:				#69314a;
+$silver:					#FDF4F9;
+$grey:						#D989AE;
+$purple:					#7B5F6B;
+$body-bg:					#fff;
+$text-color:				#000;
+
+
+
+$topbar-outside-bg:			#451f30;
+$topbar-bg: 				$topbar-outside-bg !default;
+$topbar-color:				#bb90a3;
+$topbar-color-hover: 		$link-hover-color;
+
+
+$headermain-outside-bg :			#fff !default; 
+$headermain-bg: 			 		$headermain-outside-bg !default;
+$headermain-color:					$text-color !default;
+
+$megamenu-link-color:		#000;
+$megamenu-link-hover-color 	:$link-hover-color;
+
+$nav-tabs-active-link-hover-color: $theme-color-default;
+
+$footer-outside-bg :				#451E30;
+$footer-bg: 						$footer-outside-bg !default;
+$footer-color: 						#bb90a3 !default;
+
+$product-name-hover-color: 			$link-hover-color;
+$product-price-color: 				$theme-color-default;
+
+$breadcrumb-active-color: 			#fff;
+$breadcrumb-bg			:			$theme-color-default	;
+
+$button-addtocart-bg            : $theme-color-default;
+$button-addtocart-border:		$theme-color-default;
+$button-addtocart-color-hover	:#fff;
+$button-addtocart-bg-hover		:$theme-color-secondary;
+$button-addtocart-border-hover	:$theme-color-secondary;
+
+
+@import "../_skin";
+
+.newsletter{
+	input.form-control,.input-group-addon{
+		color:#fff;
+	}
+	.form-control-static{
+		color:#000;
+	}
+    #newsletter_block_left{
+    	.title_block{
+    		color:$theme-color-default;
+    	}
+    }
+}
+
+.product-block .name a{
+	color:#000;
+}
+
+.widget-manufacture .logo-manu img{
+	@include opacity(1);
+}
+
+.socialsharing_product .btn-facebook, 
+.socialsharing_product .btn-twitter, 
+.socialsharing_product .btn-google-plus, 
+.socialsharing_product .btn-pinterest,
+#usefull_link_block li a:before{
+	color:$purple;
+}
+
+#usefull_link_block li a:hover:before{
+	color: $theme-color-default !important;
+}
+
+
+

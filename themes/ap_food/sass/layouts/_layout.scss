@@ -1,0 +1,138 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+ // layout.scss
+
+@import "vars/layout.vars";
+body{
+    &.layout-boxed-md{
+        background: $white;
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        background: $white;
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+    }
+} 
+
+.container{
+    position: relative;
+}
+
+#page{
+    overflow: hidden;
+}
+
+/*
+* HEADER 
+*/
+ 
+#topbar  {
+    min-height: $topbar-height;
+    font-size: $topbar-font-size;
+    background: $topbar-outside-bg;
+    @include transition(margin-top 0.1s ease-in-out 0s);
+    .container{
+        @include container-layout-variant($topbar-color, $topbar-bg);
+        
+    }
+    .links{  
+        padding: 6px 0;      
+    } 
+    a{
+        color: $topbar-color;
+        &.login{
+            color: $link-hover-color;
+        }
+        &:hover{color: $link-hover-color;}
+    }
+    
+    ul {
+        li {
+            &.selected {
+                color: $theme-color-default;
+                a {
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+    .topbar-box{
+        padding-top:5px;
+    }
+      
+}
+
+ 
+#header-main{
+   background: $headermain-outside-bg;
+   .container{
+        @include container-layout-variant($headermain-color, $headermain-bg); 
+        .inner{
+            padding-top: 40px;
+            padding-bottom:25px;
+        }
+        a.btn{
+            color: $white;            
+            &:hover{color: $white;}
+        }
+   }
+    &.mini-navbar{ // float header
+       @include box-shadow(0 0 5px 0 rgba(0, 0, 0, 0.24));
+        .container{
+           .inner{
+                padding: 10px 0;
+                #leo-megamenu{
+                    margin-top: 10px;
+                }
+           }
+       }
+    }
+}
+
+
+/* FOOTER */
+#footer{
+    @include clearfix();
+    background: $footer-outside-bg;
+    margin-top: 20px;
+    .container{
+        @include container-layout-variant($footer-color, $footer-bg); 
+        .inner{
+            margin-bottom: 60px;
+        }  
+    } 
+    a{
+        color: $footer-color;
+        font-size: $font-size-base + 1;
+        &:hover{color: $green-light;}
+    }
+    ul li{
+        padding: 6px 0;        
+        
+    }
+    
+}
+
+#dp_swf_engine {display: none;}

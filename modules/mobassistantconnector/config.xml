@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>mobassistantconnector</name>
+	<displayName><![CDATA[Mobile Assistant Connector]]></displayName>
+	<version><![CDATA[1.2.13]]></version>
+	<description><![CDATA[Feel stressed leaving your Prestashop store off-hand during your vacation, meetings or conferences?
+			Are you carrying laptop everywhere you go, repeatedly searching the answer for bothering question in your mind - &#039;What&rsquo;s going on at my store?&#039;
+			With Prestashop Mobile Assistant on you can be on the move and have access to the real-time store data reports at your fingertips.
+			Using it you can monitor key details on your products, customers and orders from your Android device wherever you are.]]></description>
+	<author><![CDATA[eMagicOne]]></author>
+	<tab><![CDATA[mobile]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

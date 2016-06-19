@@ -1,0 +1,32 @@
+/* Block welcome */
+/* Welcome */
+
+.welcome_block { padding:0px 0 }
+.welcome_block .rte { background: transparent none repeat scroll 0 0; font-size:31px; line-height:38px;  padding-bottom:0px; overflow:hidden }
+.welcome_block h1 {
+	margin:0px 0 10px 0;
+	padding:15px 0;
+	
+	background: none;
+}
+.welcome_block h2 {
+	padding:0 0 10px 0;
+	font-size: 12px;
+	line-height: 1.2em;
+	color: #666;
+	text-transform: none;
+	background: none;
+}
+#welcome_block_center p { padding-left: 0; font-family:angelinaregular; font-size:30px; margin-bottom:0px; text-align:Center  }
+
+#welcome_block_center .readmore {display:inline-block; position:relative; height:36px; border-radius:20px; padding:0 14px 0 0}
+#welcome_block_center .readmore span.icon{display:block; width:24px; height:24px; float:left; margin:6px 0 0 8px }
+#welcome_block_center .readmore span.txt{display:block; float:left; font-size:15px; line-height:36px; color:#fff; font-family:"lobster_1.3regular"; padding:0px 0px 0 5px;}
+
+#welcome_block_center p#welcome_image_legend {
+   margin: 0 0 10px;
+   padding:0;
+	color: #666;
+   font-size: 10px;
+}
+

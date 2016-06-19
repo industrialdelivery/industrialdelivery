@@ -1,0 +1,5 @@
+/* fix chrome */
+
+.webkit #leo-header #cart_block {
+		top: 151px;
+	}

@@ -1,0 +1,117 @@
+#leobttslider67 h1{
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.leobttslider {
+	position:relative;
+	background: url("images/border-bg.png") no-repeat scroll center bottom transparent;
+	padding-bottom: 11px;
+}
+.leobttslider .carousel-inner{
+	position:relative;
+}
+.carousel {
+	margin-bottom: 0;
+}
+.leobttslider .slide-info {
+	color: #474747;
+    font-size: 13px;
+    left: 22px;
+    line-height: 20px;
+    position: absolute;
+    top: 28%;
+    width: 34%;
+}
+.leobttslider .banner-info{
+	background:url(images/bg-slider.png);
+	color: #FFFFFF;
+    line-height: 18px;
+    min-height: 100px;
+    padding: 15px;
+    position: absolute;
+    right: 45px;
+    text-align: center;
+    bottom: 55px;
+    width: 225px;
+    z-index: 7;
+}
+.banner-info h1 {
+	color: #fff;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+.banner-info a.bnt{
+	border: 3px solid #e1596c;
+	color: #45a5a5;
+	background: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 0 22px ;
+	 line-height: 35px;
+	 display: inline-block;
+	 margin: 20px 0 10px;
+	 font-family: "lora",arial;
+	 font-size: 13px;
+	 font-weight: 700;
+	}
+
+.leobttslider .carousel-control {
+   background-color: transparent;
+    background-image: url("images/arrow-control.png");
+    border: medium none;
+    border-radius: 0 0 0 0;
+    bottom: 52px;
+    display: block;
+    height: 40px;
+    margin-top: 0;
+    opacity: 1;
+    overflow: hidden;
+    text-indent: -9999em;
+    top: inherit;
+    width: 23px;
+	z-index:25px;
+	}
+.leobttslider .carousel-control.left {
+	background-position: left top;
+	left: 0px;
+}
+.leobttslider .carousel-control.right {
+	background-position: right top;
+	right: 0px;
+}
+.leobttslider .carousel-indicators{
+	bottom: 20px;
+    top: inherit;
+	left: 12px;
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+}
+.leobttslider .carousel-indicators li{ 
+	display:block;
+	float:left;	
+	z-index:20;
+	height: 2px;
+	background: #d7d7d7;
+	padding: 0 13px; 
+	border-radius: 0;	
+}
+.leobttslider .carousel-indicators li.active,
+.leobttslider .carousel-indicators li:hover{ 
+	height: 5px;
+	background: #1ba1e2;
+	margin-top: -3px;
+}	
+.leobttslider .carousel-indicators li {
+}
+.leobttslider  .thumb-indicators li {text-indent:0; 
+   display: block;
+    float: left;
+    height: auto;
+    margin: 10px 0 10px 8px;
+    padding: 0;
+    text-indent: 0;
+    width: auto;
+    z-index: 20;
+}

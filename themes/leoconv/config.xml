@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<version value="1.4">
+		<ccc available="true" />
+		<guest_checkout available="true" />
+		<one_page_checkout available="true" />
+		<store_locator available="true" />
+	</version>
+	<name>Leo Shoes</name>
+	<positions>
+		<position>top</position>
+		<position>leftColumn</position>
+		<position>rightColumn</position>
+		<position>centerColumn</position>
+		<position>footer</position>
+	</positions>
+	<skins>
+		<skin>default</skin>		
+		<skin>blue</skin>		
+		<skin>gold</skin>
+		<skin>pink</skin>	
+		<skin>purple</skin>
+		<skin>red</skin>
+	</skins>
+</theme>

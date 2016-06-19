@@ -1,0 +1,59 @@
+/* Block newsletter */
+#newsletter_block_left {
+	border: none;
+	text-align: right;
+}
+#newsletter_block_left .title_block {
+	border: none;
+}
+#newsletter_block_left .title_block, #newsletter_block_left h4  {
+	display: none;
+}
+#newsletter_block_left p {
+	padding:0;
+	margin: 0;
+}
+
+#newsletter_block_left p.success_inline {
+	color: #418B19;
+	text-align: center;
+	font-weight: bold;
+}
+#newsletter_block_left p.warning_inline {
+	color: #DA0F00;
+	text-align: center;
+	font-weight: bold;
+}
+
+#newsletter_block_left input.inputNew {
+	background: #181818;
+	position: relative;
+	width:148px;
+	border-bottom:1px solid #282828;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-right: -22px;
+	margin-bottom: 2px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-radius-topleft: 5px;
+	-webkit-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	font-size:10px;
+	color:#999;
+}
+*:first-child+html #newsletter_block_left input.inputNew {position:static;}/* hack ie 7 */
+
+#newsletter_block_left input.button_mini {
+	position:relative;
+	height:42px;
+	width:73px;
+	border:0;
+	text-indent:-5000px;
+	background: url("img/icon-letter.png") no-repeat scroll right center transparent;
+	cursor:pointer
+}
+*:first-child+html #newsletter_block_left input.button_mini {padding-left:24px !important;}/* hack ie 7 */
+

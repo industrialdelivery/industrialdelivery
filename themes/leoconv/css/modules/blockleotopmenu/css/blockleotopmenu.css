@@ -1,0 +1,73 @@
+.nav > .dropdown:hover > .dropdown-menu{
+	display:block;
+}
+.nav li{line-height:20px}
+.navbar {
+	margin-bottom: 0;
+	position: relative;
+}
+.navbar-inner {
+	background: none repeat scroll 0 0 #1BA1E2;
+    padding: 0;
+    width: 100%;
+	border: 0;
+	border-radius: 0;
+}
+.navbar .nav > li {
+	 background: url("../img/bg-li.png") repeat-y scroll right 0 transparent;
+    float: left;
+    position: relative;
+    padding-right: 2px;
+}
+.navbar .nav > li > a {
+	color: #FFFFFF;
+    font-size: 17px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+	font-weight: normal;
+	text-shadow: inherit;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus  {
+	color: #fff;
+	 background: none repeat scroll 0 0 #1897D1;
+	 box-shadow: inherit;
+}
+.dropdown-menu {
+    border-radius: 0 0 0 0;
+    border-top: 5px solid #1BA1E2;
+    margin-top: 10px;
+	padding: 0 10px;
+}
+.navbar .nav > li > .dropdown-menu:before {
+	content: url("../img/bg-ul.png");
+    display: block;
+    height: 12px;
+    left: 40px;
+    position: absolute;
+    top: -15px;
+    width: 13px;
+    z-index: 999;
+}
+.navbar .nav > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu:after {
+	border: none;
+}
+.dropdown-menu > li {
+	 border-top: 1px solid #F1F1F1;
+}
+.dropdown-menu > li > a {
+	color: #7F7F7F;
+	padding: 10px 20px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus
+ {
+	background: #fff;
+	color: #1BA1E2;
+}
+.dropdown .caret {
+	margin-left: 5px;
+}
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+	 border-bottom-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+}

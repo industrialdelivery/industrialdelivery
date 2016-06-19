@@ -1,0 +1,21 @@
+
+[{shop_url}] 
+
+Hola {firstname} {lastname},
+
+Gràcies per comprar a {shop_name}! 
+
+La vostra comanda amb referència {order_name} ha estat enviada.
+
+Aviat rebreu un enllaç per tal de fer el seguiment del vostre
+paquet. 		 
+
+Podeu revisar la vostra comanda i descarregar la vostra factura
+des de la secció "Historial de comandes"
+[{history_url}] del vostre compte de client clicant a
+"El meu compte" [{my_account_url}] a la nostra
+botiga. 
+
+{shop_name} [{shop_url}] desenvolupat amb
+PrestaShop(tm) [http://www.prestashop.com/] 
+

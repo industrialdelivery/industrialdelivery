@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>blockleocustom1</name>
+            <displayName><![CDATA[Display Custom Home1 HTML]]></displayName>
+            <version><![CDATA[1.1]]></version>
+            <description><![CDATA[Display Custom HTML, Support All hooks]]></description>
+            <author><![CDATA[leotheme]]></author>
+            <tab><![CDATA[]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

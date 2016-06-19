@@ -1,0 +1,38 @@
+@import "compass";
+@import "theme_variables";
+
+/*******************************************************************/
+ 
+.deal-clock {
+	min-height: 40px;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+ 	> li {
+ 		display: inline-block;
+	    text-align: center;
+	    font-size: $font-size-base ;
+	    vertical-align: middle;
+	    color: $white;
+	    @include rtl-border-right(1px solid #000);
+	    position: relative;
+	    width: 25%;
+	    padding: 4px 0 3px;
+	    line-height: 16px;
+	    &:last-child {
+	    	@include rtl-border-right(none);
+	    }
+	    span {
+	    	font-size: $font-size-base - 1;
+	    	color:#999;
+	    }
+ 	}
+ 	.lof-labelexpired {
+ 		color: $white;
+ 		line-height: 40px;
+ 	}
+}

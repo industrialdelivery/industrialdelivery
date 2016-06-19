@@ -1,0 +1,503 @@
+@import "compass";
+@import "theme_variables";
+
+/* RIGHT TO LEFT */
+/**********************************/
+
+.fancybox-skin {
+  .leo-paneltool{
+    display: none;
+  }
+}
+.paneltool {
+  position: fixed;
+  top: 0px;
+  z-index: 9998;
+  @include transition(all 0.4s ease 0s);
+  @include rtl-left(-280px);
+  .leo-dynamic-update-side{
+      &.current-sidebar{
+        color: $theme-color-default;
+      }
+  }
+  .leo-dynamic-update-header{
+    &.current-header{
+        color: $theme-color-default;
+    }
+  }
+  &.themetool{
+    .group-input{
+        margin-bottom: 15px;
+        span{
+          cursor: pointer;
+        }
+        .leo-dynamic-update-layout,
+        .leo-dynamic-update-side,
+        .leo-dynamic-update-header {
+          display: block;
+          @include rtl-float-left();
+          width: 50%;
+          padding: 10px 0;
+          position: relative;
+          color: #252525;
+          &:hover{
+            color: $theme-color-default;
+          }
+          &.current-layout-mod{
+            color: $theme-color-default;
+          }
+          &:before{
+            content: "+";
+          }
+        }
+    }
+    label{
+      font-weight: normal;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $black;
+      .fa{
+        @include rtl-margin-right(10px);
+        vertical-align: middle;
+      }
+    }
+    .panelinner{
+      .group-input:last-child{
+        margin-bottom: 0px;
+      }
+    }
+    .panelcontent {
+      min-height: 500px;
+      height: 100%;
+      overflow-y: auto;
+    }
+  }
+  &.active {
+    @include rtl-left(0);
+    transition: all 0.6s;
+    z-index: 9999;
+    .panelbutton {
+      color: $theme-color-default;
+    }
+  }
+}
+.paneltool .panelcontent {
+  background: $white;
+  width: 280px;
+  min-height: 340px;
+  border-color: #f2f2f2;
+  @include rtl-border-right(#f2f2f2);
+  @include rtl-border-style(solid,solid,solid,none);
+  @include rtl-border-width(1px,1px,1px,0);
+}
+.paneltool .panelcontent > div {
+  padding:15px;
+}
+.panelbutton {
+  background: $white;
+  position: absolute;
+  @include rtl-right(-49px);
+  top: 220px;
+  @include rtl-border-left(none);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  color: $black;
+  border-color: #f2f2f2;
+  @include rtl-border-right(#f2f2f2);
+  @include rtl-border-style(solid,solid,solid,none);
+  @include rtl-border-width(1px,1px,1px,0);
+  .fa{
+    @include transform(rotate(90deg));
+  }
+}
+
+.editortool .panelbutton {
+  top: 290px;
+}
+
+#leo-paneltool.panel-open .panel-inner {
+  @include rtl-right(0);
+}
+
+#leo-paneltool h4 {
+  color: $black;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#leo-paneltool .accordion-group {
+  margin-bottom: 5px;
+}
+#leo-paneltool {
+    .panel-body{
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  .block-panelcontent{
+    overflow-x:hidden;
+    overflow-y: auto;
+    max-height: 620px;
+  }
+}
+
+#leo-paneltool form .group-input {
+  margin-bottom: 10px;
+}
+
+#leo-paneltool select {
+  padding: 5px;
+}
+
+.box-patterns div {
+  display: block;
+  width: 38px;
+  height: 38px;
+  @include rtl-float-left();
+  cursor: hand;
+  cursor: pointer;
+  border: solid 1px #f3f3f3;
+  margin: 6px;
+  border: 1px solid #ccc;
+}
+
+.box-patterns div.active {
+  border: solid 1px red;
+}
+
+#leo-paneltool .nav-tabs > li:before,
+#leo-paneltool .nav-tabs > li:after {
+  display: none;
+}
+
+#customize-form {
+  position: relative;
+}
+
+.rtl #main-preview {
+  right: 0;
+  left: auto;
+}
+.rtl #main-preview {
+  left: 0;
+  right: auto;
+}
+.rtl #main-preview {
+  margin-right: 300px;
+  margin-left: inherit;
+}
+
+.main-preview #leo-paneltool {
+  display: none;
+}
+
+.colorpicker {
+  z-index: 99999;
+}
+
+.rtl #leo-paneltool {
+  right: -320px;
+  left: auto;
+}
+
+#leo-paneltool .wrapper {
+  padding: 12px;
+}
+
+#customize-body input[type="text"], #customize-body select {
+  border: 1px solid #E2E2E2;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  font-size: 11px;
+  margin: 0 5px 0 0;
+  padding: 2px 3px;
+  width: 65px;
+  height: auto;
+  display: inline-block;
+}
+
+#customize-body select {
+  color: #888;
+}
+
+#customize-body .accordion-group label {
+  color: #888;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+#customize-body .panel-heading {
+  padding: 5px 6px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+#customize-body .accordion-group .input-group .input-group-addon {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  @include rtl-float-right();
+  margin-top: 2px;
+  width: 20px;
+}
+.rtl #customize-body .accordion-group .input-group .input-group-addon {
+  float: left;
+}
+
+#customize-body .panel-heading a {
+  display: block;
+}
+
+.form-group {
+  @include rtl-margin-right(6px);
+}
+.rtl .form-group {
+  margin-left: 6px;
+  margin-right: inherit;
+}
+
+.accordion-group label, .form-group label {
+  display: block;
+}
+
+.accordion-group label {
+  min-width: 100px;
+}
+
+#leo-paneltool .btn {
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#leo-paneltool .btn-show {
+  position: absolute;
+  top: 39px;
+  padding: 6px 18px;
+  background: #CCC;
+  @include rtl-right(11px);
+  z-index: 99;
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#customize-body .nav-tabs a {
+  font-weight: bold;
+  font-size: 11px;
+  padding: 6px 12px;
+  @include rtl-margin-right(0);
+}
+
+#customize-body .nav-tabs .active a {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: $white;
+  background: $theme-color-default;
+}
+
+.accordion-heading .accordion-toggle {
+  font-size: 11px;
+}
+
+#customize-body .form-group {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.rtl #customize-body .form-group {
+  margin-left: 0;
+  margin-right: inherit;
+}
+
+#customize-body .accordion-inner .form-group .input-group {
+  display: inline-block;
+  width: 92px;
+  float: left;
+}
+
+.rtl #customize-body .accordion-inner .form-group .input-group {
+  float: right;
+}
+
+.clear-bg {
+  padding: 3px 6px;
+  margin-left: 5px;
+}
+
+.bi-wrapper > div {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin: 3px 4px;
+  border: solid 1px #999;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.rtl .bi-wrapper > div {
+  float: right;
+}
+
+.bi-wrapper > div.active {
+  border-color: red;
+}
+
+.editortool .label-customize {
+  background-color: transparent;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 74px;
+  padding: 0;
+  position: absolute;
+  right: -155px;
+  top: 250px;
+  width: 115px;
+  display: none;
+}
+.rtl .editortool .label-customize {
+  left: -155px;
+  right: auto;
+}
+
+.editortool .label-customize:hover {
+  background-position: 0 -111px;
+}
+.paneltool.active .label-customize {
+  display: none;
+}
+///
+.leo-dynamic-theme-skin{
+  width: 40px; 
+  height:40px;
+  margin: 10px 7px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  @include border-radius(40px);
+  @include rtl-float-left();
+  &:before{
+    position: absolute;
+    content: "\f00c";
+    font-family: $font-icon;
+    width: 100%;
+    left: 0;
+    color: #fff;
+    font-size: 16px;
+    display: none;
+  }
+  &.skin-default{
+  }
+  &.current-theme-skin{
+    &:before{
+      display: inline-block;
+    }
+  }
+  label{
+    cursor: pointer;
+    background-color: $theme-color-default;
+    text-indent: -99999px;
+    display: block;
+    @include size(100%,100%);
+    &.Pink{
+      background-color: #f273ac;
+    }
+    &.White{
+      background-color: #c33976;
+    }
+  }
+}
+
+//enable_fheader
+.btn_enable_fheader{
+  background-color: #25292C;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 40px;
+  @include border-radius(20px);
+  position: relative;
+}
+.enable_fheader{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   color: $white;
+   background-color: #504C4C;
+    @include border-radius(50%);
+     i{
+      position: relative;
+      z-index: 9;
+       }
+       &:first-child{
+         float: left;
+         margin-left: -3px;
+       }
+       &:last-child{
+        float: right;
+        margin-right: -3px;
+       }
+        &.btn_no{
+            &:before{
+              content: "";
+              position:absolute;
+               width: 40px;
+              height: 40px;
+              top: 0px;
+              left: -3px;
+              @include border-radius(20px);
+              background-color:$theme-color-default;
+              @include opacity(0);
+              visibility: hidden;
+            }
+        }
+        &.btn_yes{
+          &:after{
+            content: "";
+            position:absolute;
+             width: 40px;
+            height: 40px;
+            top: 0px;
+            right: -3px;
+            @include border-radius(20px);
+            background-color:$theme-color-default;
+            @include opacity(0);
+            visibility: hidden;
+          }
+      }
+       &.current{
+           &.btn_no{
+             &:before{
+                 @include opacity(1);
+                visibility: visible;
+                left: 64px;
+                @include transition(all 0.3s ease 0s);
+             }
+           }
+           &.btn_yes{
+             &:after{
+                 @include opacity(1);
+                visibility: visible;
+                right: 64px;
+                @include transition(all 0.3s ease 0s);
+             }
+           }
+      }
+}

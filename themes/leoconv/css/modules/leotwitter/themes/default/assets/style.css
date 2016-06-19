@@ -1,0 +1,95 @@
+#itw-container {
+	background-color: transparent !important;
+	border: none;
+	border-radius: 0px;
+	font-size: 12px;
+	clear:both;
+}
+#itw-tweet, #itw {
+	color: #505050 !important;
+}
+#itw a {
+	background: none;
+	text-decoration: none;
+}
+
+#itw a:hover {
+	text-decoration: underline;
+}
+
+.itw-copyright {
+	border-top: 1px #ccc solid;
+	text-align: center;
+}
+
+.itw-copyright a {
+	color: #999;
+	font-size: 9px;
+	text-decoration: none;
+}
+
+#itw-header {
+	background: url("images/bg-bottom-tw.png") repeat-x scroll center bottom transparent;
+	border-bottom: none;
+}
+
+#itw-header a {
+	background: none;
+	color: #333;
+}
+
+#itw-header a:hover {
+	text-decoration: none;
+}
+
+a .itw-display-name {
+	font-weight: bold;
+	color: #333;
+}
+
+a:hover .itw-display-name {
+	text-decoration: underline;
+}
+
+a .itw-screen-name {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover .itw-screen-name {
+	color: #666;
+}
+
+.itw-avatar {
+	border: 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+#itw-tweets a {
+	color: #1BA1E2 !important;
+	text-decoration: none;
+}
+
+.itw-tweet-container {
+	background: url("images/bg-bottom-tw.png") repeat-x scroll center bottom transparent;
+	border-bottom: none;
+}
+
+.itw-last {
+	border: none;
+}
+
+.itw-tweet-data {
+	font-size: 10px;
+	text-align: center;	
+}
+
+#itw-twitter-icon a {
+	background: url('images/twitter-icon.png') no-repeat;
+	display: block;
+	float: right;
+	height: 20px;
+	width: 20px;
+	text-indent: -9999px;
+}

@@ -1,0 +1,37 @@
+body #main{
+	background: #FFF;
+	margin:0;
+	padding: 0
+}
+.page-sidebar #content{
+	margin-left: auto;
+	padding: 0!important
+}
+
+ #header, #footer,#nav-sidebar, .page-head {
+	display: none;
+}
+.page-sidebar #content{
+	margin-left: auto;
+}
+
+
+.widget-form{
+	border: solid 1px #f3f3f3;
+	padding: 12px;
+	margin:6px 12px;
+}
+.widget-form label{
+	float: none;
+	text-align: left;font-size: 11px;
+}
+#form .field-label{
+	font-weight: bold;
+	width: 100px;
+}
+.explain{
+	clear: both;
+	padding: 2px ;
+	font-size: 11px;
+	color:#4F8A10;
+}

@@ -1,0 +1,58 @@
+// header.scss
+@import "vars/header.vars";
+
+.logo{
+	display: inline-block;
+	margin:7px 0;
+}
+
+#header_logo{
+	position: relative;
+	z-index: 99;
+	max-height: 45px;
+}
+// classic
+.header-classic{	
+	#header_logo{
+		float: left;
+	}
+	#leo-megamenu{
+		float: left;
+	}
+}
+// fixed
+.header-fixed{	
+	#header_logo{}
+	#leo-megamenu{}
+} 
+// left
+.header-left{	
+	#header_logo{
+		
+		@include rtl-text-align-left();
+		/* float:left; */
+	}
+	#leo-megamenu{
+		/* float:left; */
+	}
+}
+// right
+.header-right{	
+	#header_logo{
+		text-align: right;
+		/* float:right; */
+	}
+	#leo-megamenu{
+		/* float:right;	 */
+	}
+}
+// center
+.header-center{	
+	#header_logo{
+		text-align: center;
+		width: 100%;
+	}
+	#leo-megamenu{
+		clear:both;
+	}
+}
